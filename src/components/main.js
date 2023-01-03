@@ -1,9 +1,13 @@
  
 
-const Main = ({pageName}) => {
+const Main = ({pageName, designer}) => {
   return (
     <>
-      <main>{pageName}</main>
+      <main>
+        {pageName}
+        <br/>
+        Designed By {designer}
+      </main>
     </>
   )
 }

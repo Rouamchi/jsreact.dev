@@ -1,4 +1,5 @@
 import {Link, NavLink} from 'react-router-dom'
+// import './Header.css'
 
 
 const header = () => {
@@ -14,7 +15,7 @@ const header = () => {
               {" "}
               HTML{" "}
             </NavLink>
-            {/* <ul className="sub-ul">
+            <ul className="sub-ul">
               <li>
                 <a href="">Full Course</a>
               </li>
@@ -24,14 +25,14 @@ const header = () => {
               <li>
                 <a href="">learn in 1h</a>
               </li>
-            </ul> */}
+            </ul>
           </li>
           <li className="main-list">
             <NavLink className="main-link" to="/css">
               {" "}
               CSS{" "}
             </NavLink>
-            {/* <ul className="sub-ul">
+            <ul className="sub-ul">
               <li>
                 <a href="">Full Course</a>
               </li>
@@ -52,18 +53,18 @@ const header = () => {
                   </li>
                 </ul>
               </li>
-            </ul> */}
+            </ul>
           </li>
           <li className="main-list">
             <NavLink className="main-link" to="/javascript">
               {" "}
               JavaScript{" "}
             </NavLink>
-            {/* <ul className="sub-ul sub-of-js">
+            <ul className="sub-ul sub-of-js">
               <li>
                 <a href="">coming soon🔥</a>
               </li>
-            </ul> */}
+            </ul>
           </li>
         </ul>
       </header>
