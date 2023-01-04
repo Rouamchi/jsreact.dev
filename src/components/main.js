@@ -1,4 +1,4 @@
- 
+import './Main.css'
 
 const Main = ({pageName, designer}) => {
   return (
