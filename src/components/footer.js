@@ -3,10 +3,12 @@ import './Footer.css'
 const footer = () => {
   return (
     <>
-      <footer>
-        Designed and developed by Mohammed ROUAMCHI
-        <span>🧡</span>
-      </footer>
+      <div className='myfooter'>
+        <footer className='mohammed'>
+          Designed and developed by Mohammed ROUAMCHI
+          <span>🧡</span>
+        </footer>
+      </div>
     </>
   )
 }

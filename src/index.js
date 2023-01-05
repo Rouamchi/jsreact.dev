@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 
-import Home from './pages/home';
-import Html from './pages/html';
-import Css from './pages/css';
-import Javascript from './pages/javascript';
+import Home from './pages/Home';
+import Html from './pages/Html';
+import Css from './pages/Css';
+import Javascript from './pages/Javascript';
 
 
 import {

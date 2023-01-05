@@ -5,7 +5,7 @@ import './Header.css'
 const header = () => {
   return (
     <>
-      <header className="hide-when-mobile">
+      <header className="hide-when-mobile mohammed">
         <h1>
           <Link to="/">Rouamchi Dev</Link>
         </h1>
