@@ -4,9 +4,9 @@ import './index.css';
 
 
 import Home from './pages/Home';
-import Html from './pages/Html';
-import Css from './pages/Css';
-import Javascript from './pages/Javascript';
+import Accueil from './pages/Accueil';
+import Spécialités from './pages/Spécialités';
+import Contact from './pages/Contact';
 
 
 import {
@@ -21,16 +21,16 @@ const router = createBrowserRouter([
     errorElement: <h1>Sorry, Page not found</h1>
   },
   {
-    path: "/html",
-    element: <Html/>,
+    path: "/accueil",
+    element: <Accueil/>,
   },
   {
-    path: "/css",
-    element: <Css/>,
+    path: "/spécialités",
+    element: <Spécialités/>,
   },
   {
-    path: "/javascript",
-    element: <Javascript/>,
+    path: "/contact",
+    element: <Contact/>,
   }
 ])
 

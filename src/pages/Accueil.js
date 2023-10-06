@@ -3,14 +3,14 @@ import Main from '../components/Main'
 import Footer from '../components/Footer'
 
 
-const Html = () => {
+const Accueil = () => {
   return (
     <>
       <Header />
-      <Main pageName="HTML Page" designer="HTML Designer"/>
+      <Main pageName="Accueil Page" designer="Accueil Designer" />
       <Footer />
     </>
   )
 }
 
-export default Html
+export default Accueil

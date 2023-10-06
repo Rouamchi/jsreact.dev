@@ -3,14 +3,14 @@ import Main from '../components/Main'
 import Footer from '../components/Footer'
 
 
-const Css = () => {
+const Spécialités = () => {
   return (
     <>
       <Header />
-      <Main pageName="CSS Page" designer="CSS Designer"/>
+      <Main pageName="Spécialités Page" designer="Spécialités Designer"/>
       <Footer />
     </>
   )
 }
 
-export default Css
+export default Spécialités
