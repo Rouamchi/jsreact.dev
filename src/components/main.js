@@ -1,50 +1,56 @@
 import './Main.css'
-import img1 from '../images/img4.jpeg'
-import img2 from '../images/img1.jpeg'
+import imgCover from '../images/imgCover.jpeg'
+import imgSection from '../images/imgSection.jpeg'
+import Galerie from './Galerie'
+import Map from './Map'
 
-// import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react';
 const Main = ({ pageName, designer }) => {
   return (
     <>
       <main>
-        {/* {pageName}
-        <br/>
-        Designed By {designer} */}
-        <div className='docname'>
-          <img src={img1} alt="" text='' />
-          <div>Dr. LOURIDI Abderrahim / Neuro-Psychiatre
-            <p>Psychiatre à SAFI</p>
-          </div>
-        </div>
 
-        <div className='docinfoparent'>
+        {/* ------------------  Title  ------------------ */}
+
+        <section className='docname'>
+          <img src={imgCover} alt="" text='' />
+          
+          {/* <p className='coverSitation'>
+          </p> */}
+          <div>Dr. LOURIDI Abderrahim Spécialiste en Psychiatrie
+            <p>Neuro-Psychiatre à Safi</p>
+          </div>
+        </section>
+
+        {/* ------------------  Description  ------------------ */}
+
+        <section className='docinfoparent'>
           <div className='docinfo'>
-            La maladie est une altération des fonctions ou de la santé d'un organisme vivant.
-            On parle aussi bien de la maladie, se référant à l'ensemble des altérations de santé, que d'une maladie, qui désigne alors une entité particulière caractérisée par des causes, des symptômes, une évolution et des possibilités thérapeutiques propres.
-            Un ou une malade est une personne souffrant d'une maladie, qu'elle soit déterminée ou non. Lorsqu'elle fait l'objet d'une prise en charge médicale, on parle alors de patient(e).
-            La santé et la maladie sont liées aux processus biologiques et aux interactions avec le milieu social et environnemental. Généralement, la maladie se définit comme une entité opposée à la santé, dont l'effet négatif est dû à une altération ou à une désharmonisation d'un système à un niveau quelconque (moléculaire, corporel, mental, émotionnel…) de l'état physiologique ou morphologique considérés comme normal, équilibré ou harmonieux. On peut parler de mise en défaut de l'homéostasie.
-            La maladie est une altération des fonctions ou de la santé d'un organisme vivant.
+            Dr. LOURIDI Abderrahim spécialiste en Psychiatrie à Safi,<br />
+            Si vous cherchez un psychiatre compétent à Safi,Dr Louridi est votre choix idéal. Avec des Décennies d'expérience, il est en mesure de diagnostiquer et de traiter une grande variété de troubles mentaux, qu'ils soient légers ou graves.
+            Le Docteur Louridi est connu pour son approche empathique et personnelle de la thérapie. Il comprend que chaque patient a des besoins différents et travaille individuellement avec chacun d'eux pour trouver la solution la mieux adaptée. Il propose également
+            une gamme de thérapies différentes, notamment la thérapie comportementale et cognitive, et la psychothérapie.
+            Vous accueillez dans son cabinet au Imm Achifaa, 4eme Etage, bd kinidy, en face l'hopital mohamed V, Safi, Maroc.
           </div>
+
+          {/* ------------- Pic of Description  ------------- */}
+
           <div className='docinfoimg'>
-            <img src={img2} alt="" text='' />
+            <img src={imgSection} alt="" text='' />
+            <p className='qui'>QUI EST Dr. LOURIDI?</p>
           </div>
-        </div>
-        <div className='doccabinet'>
-        </div>
+        </section>
 
-        {/* <div className='docmap'>
-          <Map google={this.props.google} zoom={14}>
+        {/* ---------------  Cabinet  --------------- */}
 
-            <Marker onClick={this.onMarkerClick}
-              name={'Current location'} />
+        <section>
+          <div className='doccabinet'>CABINET</div>
+          <Galerie />
 
-            <InfoWindow onClose={this.onInfoWindowClose}>
-              <div>
-                <h1>{this.state.selectedPlace.name}</h1>
-              </div>
-            </InfoWindow>
-          </Map>
-        </div> */}
+          {/* ------------------  MAP  ------------------ */}
+
+          <div className='docmap'>Obtenir l'itinéraire</div>
+          <Map />
+        </section>
       </main>
     </>
   )

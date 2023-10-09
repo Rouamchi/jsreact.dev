@@ -7,6 +7,8 @@ import Home from './pages/Home';
 import Accueil from './pages/Accueil';
 import Spécialités from './pages/Spécialités';
 import Contact from './pages/Contact';
+import Cabinet from './pages/Cabinet';
+
 
 
 import {
@@ -23,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "/accueil",
     element: <Accueil/>,
+  },
+  {
+    path: "/cabinet",
+    element: <Cabinet/>,
   },
   {
     path: "/spécialités",

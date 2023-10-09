@@ -23,6 +23,17 @@
   }
 }
 .textsize{
-  text-align: center;
+  text-align: left;
   font-size: 14px;
+}
+.whatsapp{
+  background-color: black;
+}
+.whatsapp:hover{
+  color: #145356;
+  font-weight: bold;
+}
+.iconsHeader{
+  margin-left: 10px;
+  margin-right: 5px;
 }

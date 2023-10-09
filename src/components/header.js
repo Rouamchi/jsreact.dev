@@ -1,6 +1,7 @@
 import { Link, NavLink } from 'react-router-dom'
 import './Header.css'
-
+import ReactWhatsapp from 'react-whatsapp'
+import { FaFacebook, FaWhatsapp, FaEnvelope, FaPhoneAlt } from 'react-icons/fa'
 
 const header = () => {
   return (
@@ -22,28 +23,34 @@ const header = () => {
             </ul> */}
           </li>
           <li className="main-list">
+            <NavLink className="main-link" to="/cabinet">
+              {" "}
+              Cabinet{" "}
+            </NavLink>
+          </li>
+          <li className="main-list">
             <NavLink className="main-link" to="/spécialités">
               {" "}
               Spécialités{" "}
             </NavLink>
             <ul className="sub-ul textsize">
               <li>
-                <a className='textsize' href="https://fr.wikipedia.org/wiki/Trouble_anxieux">Troubles Anxieux</a>
+                <a className='textsize' target='_blank' rel="noreferrer" href="https://fr.wikipedia.org/wiki/Trouble_anxieux">Troubles Anxieux</a>
               </li>
               <li>
-                <a className='textsize' href="https://fr.wikipedia.org/wiki/Liste_de_phobies">Phobies</a>
+                <a className='textsize' target='_blank' rel="noreferrer" href="https://fr.wikipedia.org/wiki/Liste_de_phobies">Phobies</a>
               </li>
               <li>
-                <a className='textsize' href="https://fr.wikipedia.org/wiki/D%C3%A9pression_(psychiatrie)">Troubles Depressifs</a>
+                <a className='textsize' target='_blank' rel="noreferrer" href="https://fr.wikipedia.org/wiki/D%C3%A9pression_(psychiatrie)">Troubles Depressifs</a>
               </li>
               <li>
-                <a className='textsize' href="https://fr.wikipedia.org/wiki/Trouble_obsessionnel_compulsif">Troubles Obsessif Compulsif</a>
+                <a className='textsize' target='_blank' rel="noreferrer" href="https://fr.wikipedia.org/wiki/Trouble_obsessionnel_compulsif">Troubles Obsessif Compulsif</a>
               </li>
               <li>
-                <a className='textsize' href="https://fr.wikipedia.org/wiki/Liste_des_troubles_mentaux">Troubles liés à l'âge</a>
+                <a className='textsize' target='_blank' rel="noreferrer" href="https://fr.wikipedia.org/wiki/Liste_des_troubles_mentaux">Troubles liés à l'âge</a>
               </li>
               <li>
-                <a className='textsize' href="http://www.psychomedia.qc.ca/diagnostics/quels-sont-les-troubles-sexuels">Troubles Sexuels</a>
+                <a className='textsize' target='_blank' rel="noreferrer" href="http://www.psychomedia.qc.ca/diagnostics/quels-sont-les-troubles-sexuels">Troubles Sexuels</a>
               </li>
               {/* <li className="mini-projects">
                 <a href="">mini projects&nbsp; + </a>
@@ -64,17 +71,19 @@ const header = () => {
           <li className="main-list">
             <NavLink className="main-link" to="/contact">
               {" "}
-              Contact{" "}
+              CONTACTEZ-NOUS{" "}
             </NavLink>
-            <ul className="sub-ul sub-of-js">
+            <ul className="sub-ul sub-of-js textsize">
               <li>
-                <a href="">Whatssap</a>
+                {/* <a href=".">Whatsapp<ReactWhatsapp number="+212678572247" message=""></ReactWhatsapp></a> */}
+                <FaWhatsapp className='iconsHeader'/> <a href="."><ReactWhatsapp className='whatsapp' number="+212678572247" message="">Whatsapp</ReactWhatsapp></a>
               </li>
               <li>
-                <a href="">Téléphone</a>
+              <FaFacebook className='iconsHeader'/> <a href="https://www.facebook.com/Lour56.A" target='_blank' rel="noreferrer">Facebook</a>
               </li>
               <li>
-                <a href="">Email</a>
+              <FaEnvelope className='iconsHeader'/> <a href="https://mail.google.com/mail/u/0/?hl=fr#inbox?compose=CllgCJNrcwzNgbdQPPzktPVvlSScCBJBskccNTtVfhlDCGrgmKhfjBsvpgrSxMrbfGnwvsHPLZL" target='_blank' rel="noreferrer">
+                  Email</a>
               </li>
             </ul>
           </li>
@@ -105,45 +114,58 @@ const header = () => {
             </ul> */}
           </div>
           <div className="main-div">
+            <label AccueilFor="Accueil">
+              Accueil <i className="fas fa-plus" />{" "}
+            </label>
+            <input id="Accueil" type="checkbox" />
+          </div>
+          <div className="main-div">
+            <label AccueilFor="Cabinet">
+              Cabinet <i className="fas fa-plus" />{" "}
+            </label>
+            <input id="Accueil" type="checkbox" />
+          </div>
+          <div className="main-div">
             <label AccueilFor="Spécialités">
               Spécialités <i className="fas fa-plus" />{" "}
             </label>
             <input id="Spécialités" type="checkbox" />
             <ul className="sub-div">
               <li>
-                <a className='textsize' href="https://fr.wikipedia.org/wiki/Trouble_anxieux">Troubles Anxieux</a>
+                <a className='textsize' target='_blank' rel="noreferrer" href="https://fr.wikipedia.org/wiki/Trouble_anxieux">Troubles Anxieux</a>
               </li>
               <li>
-                <a className='textsize' href="https://fr.wikipedia.org/wiki/Liste_de_phobies">Phobies</a>
+                <a className='textsize' target='_blank' rel="noreferrer" href="https://fr.wikipedia.org/wiki/Liste_de_phobies">Phobies</a>
               </li>
               <li>
-                <a className='textsize' href="https://fr.wikipedia.org/wiki/D%C3%A9pression_(psychiatrie)">Troubles Depressifs</a>
+                <a className='textsize' target='_blank' rel="noreferrer" href="https://fr.wikipedia.org/wiki/D%C3%A9pression_(psychiatrie)">Troubles Depressifs</a>
               </li>
               <li>
-                <a className='textsize' href="https://fr.wikipedia.org/wiki/Trouble_obsessionnel_compulsif">Troubles Obsessif Compulsif</a>
+                <a className='textsize' target='_blank' rel="noreferrer" href="https://fr.wikipedia.org/wiki/Trouble_obsessionnel_compulsif">Troubles Obsessif Compulsif</a>
               </li>
               <li>
-                <a className='textsize' href="https://fr.wikipedia.org/wiki/Liste_des_troubles_mentaux">Troubles liés à l'âge</a>
+                <a className='textsize' target='_blank' rel="noreferrer" href="https://fr.wikipedia.org/wiki/Liste_des_troubles_mentaux">Troubles liés à l'âge</a>
               </li>
               <li>
-                <a className='textsize' href="http://www.psychomedia.qc.ca/diagnostics/quels-sont-les-troubles-sexuels">Troubles Sexuels</a>
+                <a className='textsize' target='_blank' rel="noreferrer" href="http://www.psychomedia.qc.ca/diagnostics/quels-sont-les-troubles-sexuels">Troubles Sexuels</a>
               </li>
             </ul>
           </div>
           <div className="main-div">
             <label AccueilFor="js">
-              Contact <i className="fas fa-plus" />{" "}
+              CONTACTEZ-NOUS <i className="fas fa-plus" />{" "}
             </label>
             <input id="js" type="checkbox" />
             <ul className="sub-div">
               <li>
-                <a href="">Whatssap</a>
+                <a href=".">Whatsapp<ReactWhatsapp number="+212678572247" message=""></ReactWhatsapp></a>
               </li>
               <li>
-                <a href="">Téléphone</a>
+                <a href="https://www.facebook.com/Lour56.A" target='_blank' rel="noreferrer">Facebook</a>
               </li>
               <li>
-                <a href="">Email</a>
+                <a href="https://mail.google.com/mail/u/0/?hl=fr#inbox?compose=CllgCJNrcwzNgbdQPPzktPVvlSScCBJBskccNTtVfhlDCGrgmKhfjBsvpgrSxMrbfGnwvsHPLZL" target='_blank' rel="noreferrer">
+                  Email</a>
               </li>
             </ul>
           </div>

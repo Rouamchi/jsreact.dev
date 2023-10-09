@@ -6,7 +6,8 @@ const Home = () => {
   return (
     <>
       <Header />
-      <Main pageName="Home Page" designer="Full Designer"/>
+      <Main/>
+      {/* <Main pageName="Home Page" designer="Full Designer"/> */}
       <Footer />
     </>
   )

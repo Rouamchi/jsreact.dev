@@ -1,16 +1,16 @@
+import React from 'react'
 import Header from '../components/Header'
-import Main from '../components/Main'
+import Galerie from '../components/Galerie'
 import Footer from '../components/Footer'
 
-
-const Accueil = () => {
+const Cabinet =() => {
   return (
     <>
       <Header />
-      <Main/>
+      <Galerie />
       <Footer />
     </>
   )
 }
 
-export default Accueil
+export default Cabinet
