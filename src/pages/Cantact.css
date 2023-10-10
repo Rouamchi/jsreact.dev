@@ -1,0 +1,56 @@
+.contactCards{
+  /* border: 1px solid red; */
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+.contactCards .contactCard{
+  /* background-color: white; */
+  border: 1px solid #b9b8b8;
+  border-radius: 4px;
+  width: 28%;
+  height: 120px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  display: flex;
+}
+
+.iconsContact{
+  /* border: 1px solid red; */
+  background-color: #00a3c8;
+  margin-top: 19px;
+  margin-left: 15px;
+  margin-right: 20px;
+  border-radius: 50px;
+  padding:16px;
+}
+
+h3{
+  color: #222222;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+  color: #555555;
+  font-family:'Source Sans Pro';
+}
+.contactParent{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.textfield{
+  /* border: 1px solid #adadad; */
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.cantactMap{
+  /* border: 1px solid black; */
+  width: 45%;
+  height: auto;
+  margin-bottom: 60px;
+}

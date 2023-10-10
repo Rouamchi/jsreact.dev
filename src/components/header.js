@@ -71,7 +71,7 @@ const header = () => {
           <li className="main-list">
             <NavLink className="main-link" to="/contact">
               {" "}
-              CONTACTEZ-NOUS{" "}
+              Contactez-Nous{" "}
             </NavLink>
             <ul className="sub-ul sub-of-js textsize">
               <li>
@@ -153,7 +153,7 @@ const header = () => {
           </div>
           <div className="main-div">
             <label AccueilFor="js">
-              CONTACTEZ-NOUS <i className="fas fa-plus" />{" "}
+            Contactez-Nous <i className="fas fa-plus" />{" "}
             </label>
             <input id="js" type="checkbox" />
             <ul className="sub-div">

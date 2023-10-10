@@ -1,22 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react';
+import { Media } from '../images/index'
 import './Galerie.css'
-import img1 from '../images/img1.jpeg'
-import img2 from '../images/img2.jpeg'
-import img3 from '../images/img3.jpeg'
-import img4 from '../images/img4.jpeg'
-import img5 from '../images/img5.jpeg'
-import img6 from '../images/img6.jpeg'
-import img7 from '../images/img7.jpeg'
-import img8 from '../images/img8.jpeg'
-import img9 from '../images/img9.jpeg'
-import img10 from '../images/img10.jpeg'
-import img11 from '../images/img11.jpeg'
-import img12 from '../images/img12.jpeg'
 
 const Galerie = () => {
+  const [file, setFile] = useState(null);
   return (
     <>
-      <h2>Que soigne un Psychiatre ?</h2>
+      <h2 style={{ marginTop: '70px' }}>Que soigne un Psychiatre ?</h2>
       <section className='cabinetDescription'>
         <p>
           Le Psychiatre est un avant tout un médecin. Il soigne donc les maladies psychiques. Son rôle est la prévention et le soulagement du patient. Le psychiatre s'assure que vous n'êtes pas un risque pour vous ou pour les autres. Pour cela il a recours aux médicaments lorsque cela est nécessaire.
@@ -28,19 +18,38 @@ const Galerie = () => {
       </section>
       <h2>Photos de notre Cabinet:</h2>
       <section className='galerieParent'>
-        <div className='photos'>
-          <img src={img1} alt="" />
-          <img src={img2} alt="" />
-          <img src={img3} alt="" />
-          <img src={img4} alt="" />
-          <img src={img5} alt="" />
-          <img src={img6} alt="" />
-          <img src={img7} alt="" />
-          <img src={img8} alt="" />
-          <img src={img9} alt="" />
-          <img src={img10} alt="" />
-          <img src={img11} alt="" />
-          <img src={img12} alt="" />
+        {
+          Media.map((file, index) => (
+            <div className='photos' key={index} onClick={() => setFile(file)}>
+              {
+                file.type === 'img'
+                  ? <img src={file.url} alt='' />
+                  : <video rc={file.url} muted />
+              }
+              {/* <img src={img1} alt="" />
+            <img src={img2} alt="" />
+            <img src={img3} alt="" />
+            <img src={img4} alt="" />
+            <img src={img5} alt="" />
+            <img src={img6} alt="" />
+            <img src={img7} alt="" />
+            <img src={img8} alt="" />
+            <img src={img9} alt="" />
+            <img src={img10} alt="" />
+            <img src={img11} alt="" />
+            <img src={img12} alt="" /> */}
+            </div>
+          )
+
+          )
+        }
+        <div className='popupImage' style={{ display:file ? 'block' : 'none'}}>
+          <span onClick={() => setFile(null)}>&times;</span>
+          {
+            file?.type === 'video'
+              ? <video src={file?.url} muted autoPlay controls />
+              : <img src={file?.url} />
+          }
         </div>
       </section>
     </>

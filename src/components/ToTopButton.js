@@ -1,11 +1,9 @@
 import React from 'react'
-import Header from '../components/Header'
-import Galerie from '../components/Galerie'
 import { useEffect, useState } from 'react'
-import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward'
-import Footer from '../components/Footer'
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 
-const Cabinet = () => {
+
+function ToTopButton() {
   const [toTopButton, setToTopButton] = useState(false);
 
   useEffect(() => {
@@ -25,10 +23,7 @@ const Cabinet = () => {
     })
   }
   return (
-    <>
-      <Header />
-      <Galerie />
-      <div>
+    <div>
       {toTopButton && (
         <ArrowUpwardIcon
           style={{
@@ -47,9 +42,7 @@ const Cabinet = () => {
         />
       )}
     </div>
-      <Footer />
-    </>
   )
 }
 
-export default Cabinet
+export default ToTopButton

@@ -2,6 +2,7 @@ import './Main.css'
 import imgCover from '../images/imgCover.jpeg'
 import imgSection from '../images/imgSection.jpeg'
 import Galerie from './Galerie'
+import ToTopButton from './ToTopButton'
 import Map from './Map'
 
 const Main = ({ pageName, designer }) => {
@@ -17,7 +18,7 @@ const Main = ({ pageName, designer }) => {
           {/* <p className='coverSitation'>
           </p> */}
           <div>Dr. LOURIDI Abderrahim Spécialiste en Psychiatrie
-            <p>Neuro-Psychiatre à Safi</p>
+            <p style={{color:'white', fontFamily:'arial'}}>Neuro-Psychiatre à Safi</p>
           </div>
         </section>
 
@@ -50,6 +51,7 @@ const Main = ({ pageName, designer }) => {
 
           <div className='docmap'>Obtenir l'itinéraire</div>
           <Map />
+          <ToTopButton/>
         </section>
       </main>
     </>
