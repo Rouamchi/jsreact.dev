@@ -6,6 +6,11 @@ import './index.css';
 import Home from './pages/Home';
 import Accueil from './pages/Accueil';
 import Spécialités from './pages/Spécialités';
+import Psychiatre from './pages/Psychiatre';
+import Psychothérapeute from './pages/Psychothérapeute';
+import Addictiologue from './pages/Addictiologue';
+import Sexologue from './pages/Sexologue';
+import GerontoPsychiatrie from './pages/GerontoPsychiatrie';
 import Contact from './pages/Contact';
 import Cabinet from './pages/Cabinet';
 
@@ -37,7 +42,28 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact/>,
-  }
+  },
+
+  {
+    path: "/psychiatre",
+    element: <Psychiatre/>,
+  },
+  {
+    path: "/psychothérapeute",
+    element: <Psychothérapeute/>,
+  },
+  {
+    path: "/addictiologue",
+    element: <Addictiologue/>,
+  },
+  {
+    path: "/sexologue",
+    element: <Sexologue/>,
+  },
+  {
+    path: "/gerontoPsychiatrie",
+    element: <GerontoPsychiatrie/>,
+  },
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

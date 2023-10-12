@@ -71,7 +71,6 @@ main .docinfoparent {
 main .docinfo {
   width: 1500px;
   padding: 30px;
-  /* border: 2px solid blue; */
   position: relative;
   margin-top: 3%;
   margin-left: 1%;
@@ -81,11 +80,6 @@ main .docinfo {
   font-size: 18px;
   line-height: 35px;
   text-align: left;
-  /* font-weight: bold; */
-  /* min-height: 100vh; */
-  /* flex-direction: column; */
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 
 .docinfoimg img {

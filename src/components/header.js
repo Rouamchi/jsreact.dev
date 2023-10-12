@@ -23,35 +23,43 @@ const header = () => {
             </ul> */}
           </li>
           <li className="main-list">
-            <NavLink className="main-link" to="/cabinet">
-              {" "}
-              Cabinet{" "}
+            <NavLink className="main-link" to="/cabinet">{" "}Cabinet{" "}
             </NavLink>
           </li>
           <li className="main-list">
             <NavLink className="main-link" to="/spécialités">
               {" "}
-              Spécialités{" "}
+              Service{" "}
             </NavLink>
             <ul className="sub-ul textsize">
               <li>
-                <a className='textsize' target='_blank' rel="noreferrer" href="https://fr.wikipedia.org/wiki/Trouble_anxieux">Troubles Anxieux</a>
+                <NavLink className="textsize" to="/psychiatre">
+                  {" "}Psychiatre{" "}
+                </NavLink>
               </li>
               <li>
-                <a className='textsize' target='_blank' rel="noreferrer" href="https://fr.wikipedia.org/wiki/Liste_de_phobies">Phobies</a>
+                <NavLink className="textsize" to="/psychothérapeute">
+                  {" "}Psychothérapeute{" "}
+                </NavLink>
               </li>
               <li>
-                <a className='textsize' target='_blank' rel="noreferrer" href="https://fr.wikipedia.org/wiki/D%C3%A9pression_(psychiatrie)">Troubles Depressifs</a>
+                <NavLink className="textsize" to="/addictiologue">
+                  {" "}Addictiologue{" "}
+                </NavLink>
               </li>
               <li>
-                <a className='textsize' target='_blank' rel="noreferrer" href="https://fr.wikipedia.org/wiki/Trouble_obsessionnel_compulsif">Troubles Obsessif Compulsif</a>
+                <NavLink className="textsize" to="/sexologue">
+                  {" "}Sexologue{" "}
+                </NavLink>
               </li>
               <li>
-                <a className='textsize' target='_blank' rel="noreferrer" href="https://fr.wikipedia.org/wiki/Liste_des_troubles_mentaux">Troubles liés à l'âge</a>
+                <NavLink className="textsize" to="/gerontoPsychiatrie">
+                  {" "}Geronto-Psychiatrie{" "}
+                </NavLink>
               </li>
-              <li>
+              {/* <li>
                 <a className='textsize' target='_blank' rel="noreferrer" href="http://www.psychomedia.qc.ca/diagnostics/quels-sont-les-troubles-sexuels">Troubles Sexuels</a>
-              </li>
+              </li> */}
               {/* <li className="mini-projects">
                 <a href="">mini projects&nbsp; + </a>
                 <ul className="sub-sub-ul">
@@ -76,13 +84,13 @@ const header = () => {
             <ul className="sub-ul sub-of-js textsize">
               <li>
                 {/* <a href=".">Whatsapp<ReactWhatsapp number="+212678572247" message=""></ReactWhatsapp></a> */}
-                <FaWhatsapp className='iconsHeader'/> <a href="."><ReactWhatsapp className='whatsapp' number="+212678572247" message="">Whatsapp</ReactWhatsapp></a>
+                <FaWhatsapp className='iconsHeader' /> <a href="."><ReactWhatsapp className='whatsapp' number="+212678572247" message="">Whatsapp</ReactWhatsapp></a>
               </li>
               <li>
-              <FaFacebook className='iconsHeader'/> <a href="https://www.facebook.com/Lour56.A" target='_blank' rel="noreferrer">Facebook</a>
+                <FaFacebook className='iconsHeader' /> <a href="https://www.facebook.com/Lour56.A" target='_blank' rel="noreferrer">Facebook</a>
               </li>
               <li>
-              <FaEnvelope className='iconsHeader'/> <a href="https://mail.google.com/mail/u/0/?hl=fr#inbox?compose=CllgCJNrcwzNgbdQPPzktPVvlSScCBJBskccNTtVfhlDCGrgmKhfjBsvpgrSxMrbfGnwvsHPLZL" target='_blank' rel="noreferrer">
+                <FaEnvelope className='iconsHeader' /> <a href="https://mail.google.com/mail/u/0/?hl=fr#inbox?compose=CllgCJNrcwzNgbdQPPzktPVvlSScCBJBskccNTtVfhlDCGrgmKhfjBsvpgrSxMrbfGnwvsHPLZL" target='_blank' rel="noreferrer">
                   Email</a>
               </li>
             </ul>
@@ -127,33 +135,40 @@ const header = () => {
           </div>
           <div className="main-div">
             <label AccueilFor="Spécialités">
-              Spécialités <i className="fas fa-plus" />{" "}
+              Service <i className="fas fa-plus" />{" "}
             </label>
             <input id="Spécialités" type="checkbox" />
             <ul className="sub-div">
               <li>
-                <a className='textsize' target='_blank' rel="noreferrer" href="https://fr.wikipedia.org/wiki/Trouble_anxieux">Troubles Anxieux</a>
+                <NavLink className="textsize" to="/psychiatre">
+                  {" "}Psychiatre{" "}
+                </NavLink>
               </li>
               <li>
-                <a className='textsize' target='_blank' rel="noreferrer" href="https://fr.wikipedia.org/wiki/Liste_de_phobies">Phobies</a>
+                <NavLink className="textsize" to="/psychothérapeute">
+                  {" "}Psychothérapeute{" "}
+                </NavLink>
               </li>
               <li>
-                <a className='textsize' target='_blank' rel="noreferrer" href="https://fr.wikipedia.org/wiki/D%C3%A9pression_(psychiatrie)">Troubles Depressifs</a>
+                <NavLink className="textsize" to="/addictiologue">
+                  {" "}Addictiologue{" "}
+                </NavLink>
               </li>
               <li>
-                <a className='textsize' target='_blank' rel="noreferrer" href="https://fr.wikipedia.org/wiki/Trouble_obsessionnel_compulsif">Troubles Obsessif Compulsif</a>
+                <NavLink className="textsize" to="/sexologue">
+                  {" "}Sexologue{" "}
+                </NavLink>
               </li>
               <li>
-                <a className='textsize' target='_blank' rel="noreferrer" href="https://fr.wikipedia.org/wiki/Liste_des_troubles_mentaux">Troubles liés à l'âge</a>
-              </li>
-              <li>
-                <a className='textsize' target='_blank' rel="noreferrer" href="http://www.psychomedia.qc.ca/diagnostics/quels-sont-les-troubles-sexuels">Troubles Sexuels</a>
+                <NavLink className="textsize" to="/gerontoPsychiatrie">
+                  {" "}Geronto-Psychiatrie{" "}
+                </NavLink>
               </li>
             </ul>
           </div>
           <div className="main-div">
             <label AccueilFor="js">
-            Contactez-Nous <i className="fas fa-plus" />{" "}
+              Contactez-Nous <i className="fas fa-plus" />{" "}
             </label>
             <input id="js" type="checkbox" />
             <ul className="sub-div">
