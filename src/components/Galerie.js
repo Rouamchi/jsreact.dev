@@ -18,7 +18,7 @@ const Galerie = () => {
 
   return (
     <>
-      <h2 style={{ marginTop: '100px' }}>Que soigne un Psychiatre ?</h2>
+      <h2 className='que' style={{ marginTop: '100px' }}>Que soigne un Psychiatre ?</h2>
       <section className='cabinetDescription'>
         <p>
           Le Psychiatre est un avant tout un médecin. Il soigne donc les maladies psychiques. <br/> Son rôle est la prévention et le soulagement du patient. Le psychiatre s'assure que vous n'êtes pas un risque pour vous ou pour les autres. Pour cela il a recours aux médicaments lorsque cela est nécessaire.

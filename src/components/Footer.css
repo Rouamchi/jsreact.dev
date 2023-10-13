@@ -3,13 +3,11 @@ footer {
   display: flex;
   padding: 20px 0;
   font-size: 18px;
-  /* background-color: teal; */
   background-color: #1b1b1b;
   justify-content: space-between;
 }
 
 .address {
-  /* border: 2px solid red; */
   width: 40%;
   margin-left: 5%;
   text-align: center;
@@ -17,7 +15,6 @@ footer {
 }
 
 .icons1 {
-  /* border: 2px solid black; */
   width: 20%;
   margin-left: 7%;
   line-height: 30px;
@@ -25,7 +22,6 @@ footer {
 
 .icons1 div a:hover {
   color: #145356;
-  font-weight: bold;
 }
 
 .whatsapp {
@@ -35,7 +31,6 @@ footer {
 }
 
 .icons2 {
-  /* border: 2px solid orange; */
   width: 25%;
   margin-left: 1%;
   margin-right: 3%;
@@ -44,54 +39,67 @@ footer {
 
 .icons2 div:hover {
   color: #145356;
-  font-weight: bold;
 }
 
 .icons2 div a:hover {
   color: #145356;
-  /* font-weight: bold; */
+}
+
+.footerMobile{
+  display: none;
 }
 
 
 
-@media (max-width:800px) {
-  footer {
-    margin-top: 2%;
-    display: flex;
-    padding: 10px 0;
-    font-size: 12px;
-    /* background-color: teal; */
-    background-color: #1b1b1b;
-    justify-content: space-between;
-  }
 
+
+
+
+
+
+
+
+
+
+@media (max-width:1290px) {
+  footer {
+    display: none;
+  }
+  .footerMobile{
+    display:block;
+    width: 100%;
+    margin-top: 2%;
+    padding: 10px;
+    font-size: 12px;
+    background-color: #1b1b1b;
+  }
   .address {
-    /* border: 2px solid red; */
-    width: 40%;
-    margin-left: 5%;
+    width: 90%;
     text-align: center;
     line-height: 20px;
+    margin-top: 2%;
   }
-
+  .iconsOneTwo{
+    display: flex;
+  }
   .icons1 {
-    /* border: 2px solid black; */
-    width: 20%;
-    margin-left: 7%;
+    width: 40%;
+    text-align: left;
     line-height: 20px;
-  }
+    margin-top: 1%;
 
+  }
+  .icons2 {
+    width: 50%;
+    text-align: left;
+    line-height: 20px;
+    margin-top: 1%;
+    margin-left: 8%;
+  }
   .whatsapp {
     font-size: 12px;
     background-color: #1b1b1b;
     border: black;
-  }
-
-  .icons2 {
-    /* border: 2px solid orange; */
-    width: 25%;
-    margin-left: 1%;
-    margin-right: 3%;
-    line-height: 20px;
   }
 
 }

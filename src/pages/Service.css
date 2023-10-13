@@ -1,3 +1,6 @@
+.serMobile{
+  display: none;
+}
 .backgroundGray {
   position: relative;
   display: flex;
@@ -136,7 +139,6 @@
   width: 80%;
   margin-left: 3%;
   line-height: 20px;
-  /* font-weight: bold; */
   font-size: 14px;
   color: #555555;
   letter-spacing: 0.3px;
@@ -152,4 +154,73 @@
   color: #555555;
   letter-spacing: 0.3px;
   font-family: "Source Sans Pro", sans-serif;
+}
+
+/* For Mobile */
+@media (max-width:1290px){
+  .ser{
+    display: none;
+  }
+  .serMobile{
+    display: block;
+  }
+  .backgroundImage {
+    width: 100%;
+    height: 100px;
+    box-shadow: 5px 5px 20px gray;
+  }
+  .backgroundText {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .sectionImgService {
+    display: block;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .sectionImg {
+    margin-top: 7%;
+    height: 200px;
+    width: 95%;
+  }
+  
+  .sectionService {
+    width: 60%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+  }
+  .serviceItemCantact {
+    width: 200px;
+    display: block;
+    color: #1b1b1b;
+    font-size: 18px;
+    margin-top: 3px;
+    margin-left: 40px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+  }
+
+  .bodyDef {
+    width: 90%;
+    line-height: 22px;
+    font-size: 15px;
+  }
+  .sousTitreDef {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 18px;
+    width: 90%;
+  }
+  
+  .titleDef {
+    width: 60%;
+    font-size: 20px;
+    margin-top: 10%;
+    margin-bottom: 4%;
+    margin-left: 5%;
+    border-bottom: 2px solid #00a3c8;
+  }
+
 }

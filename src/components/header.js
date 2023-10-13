@@ -1,7 +1,7 @@
 import { Link, NavLink } from 'react-router-dom'
 import './Header.css'
 import ReactWhatsapp from 'react-whatsapp'
-import { FaFacebook, FaWhatsapp, FaEnvelope, FaPhoneAlt } from 'react-icons/fa'
+import { FaFacebook, FaWhatsapp, FaEnvelope } from 'react-icons/fa'
 
 const header = () => {
   return (
@@ -16,11 +16,6 @@ const header = () => {
               {" "}
               Accueil{" "}
             </NavLink>
-            {/* <ul className="sub-ul">
-              <li>
-                <a href="/">Back to home</a>
-              </li>
-            </ul> */}
           </li>
           <li className="main-list">
             <NavLink className="main-link" to="/cabinet">{" "}Cabinet{" "}
@@ -57,23 +52,6 @@ const header = () => {
                   {" "}Geronto-Psychiatrie{" "}
                 </NavLink>
               </li>
-              {/* <li>
-                <a className='textsize' target='_blank' rel="noreferrer" href="http://www.psychomedia.qc.ca/diagnostics/quels-sont-les-troubles-sexuels">Troubles Sexuels</a>
-              </li> */}
-              {/* <li className="mini-projects">
-                <a href="">mini projects&nbsp; + </a>
-                <ul className="sub-sub-ul">
-                  <li>
-                    <a href="">project 1</a>
-                  </li>
-                  <li>
-                    <a href="">project 2</a>
-                  </li>
-                  <li>
-                    <a href="">project 3</a>
-                  </li>
-                </ul>
-              </li> */}
             </ul>
           </li>
           <li className="main-list">
@@ -83,7 +61,6 @@ const header = () => {
             </NavLink>
             <ul className="sub-ul sub-of-js textsize">
               <li>
-                {/* <a href=".">Whatsapp<ReactWhatsapp number="+212678572247" message=""></ReactWhatsapp></a> */}
                 <FaWhatsapp className='iconsHeader' /> <a href="."><ReactWhatsapp className='whatsapp' number="+212678572247" message="">Whatsapp</ReactWhatsapp></a>
               </li>
               <li>
@@ -97,30 +74,16 @@ const header = () => {
           </li>
         </ul>
       </header>
-      <header style={{ backgroundColor: "steelblue" }} className="show-when-mobile">
+
+
+
+      <header style={{ backgroundColor: "#1b1b1b", paddingLeft:'4%' }} className="show-when-mobile">
         <h1>Dr. Abderrahim LOURIDI</h1>
         <label className="absolute" AccueilFor="burger">
           <i className="fas fa-bars" />
         </label>
         <input id="burger" type="checkbox" />
         <div className="show-on-click">
-          <div className="main-div">
-            <label AccueilFor="Accueil">
-              Accueil <i className="fas fa-plus" />{" "}
-            </label>
-            <input id="Accueil" type="checkbox" />
-            {/* <ul className="sub-div">
-              <li>
-                <a href="">Full Course</a>
-              </li>
-              <li>
-                <a href="">Crash Course</a>
-              </li>
-              <li>
-                <a href="">learn in 1h</a>
-              </li>
-            </ul> */}
-          </div>
           <div className="main-div">
             <label AccueilFor="Accueil">
               Accueil <i className="fas fa-plus" />{" "}

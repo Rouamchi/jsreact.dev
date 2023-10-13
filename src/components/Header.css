@@ -13,11 +13,10 @@
 
 /* Added from mobile-screen.css */
 
-@media (max-width: 800px) {
+@media (max-width: 1290px) {
   .show-when-mobile {
     display: block;
   }
-
   .hide-when-mobile {
     display: none;
   }

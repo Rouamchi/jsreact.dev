@@ -5,7 +5,7 @@ import Galerie from './Galerie'
 import ToTopButton from './ToTopButton'
 import Map from './Map'
 
-const Main = ({ pageName }) => {
+const Main = () => {
   return (
     <>
       <main>

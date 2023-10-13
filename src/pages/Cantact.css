@@ -1,5 +1,4 @@
 .contactCards{
-  /* border: 1px solid red; */
   display: flex;
   margin-top: 80px;
   margin-bottom: 80px;
@@ -8,7 +7,6 @@
   text-align: left;
 }
 .contactCards .contactCard{
-  /* background-color: white; */
   border: 1px solid #b9b8b8;
   border-radius: 4px;
   width: 28%;
@@ -20,7 +18,6 @@
 }
 
 .iconsContact{
-  /* border: 1px solid red; */
   background-color: #00a3c8;
   margin-top: 19px;
   margin-left: 15px;
@@ -44,13 +41,81 @@ p{
 }
 
 .textfield{
-  /* border: 1px solid #adadad; */
   margin-top: 30px;
   margin-left: 30px;
 }
 .cantactMap{
-  /* border: 1px solid black; */
   width: 45%;
   height: auto;
   margin-bottom: 60px;
+}
+.textfieldParentMobile{
+  display: none;
+}
+
+
+
+
+
+/*  --------- Mobile ---------- */
+
+@media (max-width:1290px){
+  .contactCards{
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+  .contactCards .contactCard{
+    border: 1px solid #b9b8b8;
+    border-radius: 4px;
+    width: 80%;
+    height: 120px;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    padding: 10px;
+    display: flex;
+
+  }
+  
+  .iconsContact{
+    background-color: #00a3c8;
+    margin-top: 19px;
+    margin-left: 15px;
+    margin-right: 20px;
+    border-radius: 50px;
+    padding:16px;
+  }
+  
+  h3{
+    color: #222222;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  p{
+    color: #555555;
+    font-family:'Source Sans Pro';
+  }
+  .contactParent{
+    width: 98%;
+    display: block;
+    margin: 10px;
+  }
+  
+  .textfield{
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  .cantactMap{
+    width: 92%;
+    margin: 4%;
+  }
+  .textfieldParent{
+    display: none;
+  }
+  .textfieldParentMobile{
+    display: block;
+  }
 }

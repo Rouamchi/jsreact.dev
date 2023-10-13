@@ -14,20 +14,6 @@
   align-items: center;
 }
 
-.cabinetDescription p:hover{
-  width: auto;
-  padding: 20px;
-  position: relative;
-  margin-left: 3%;
-  margin-right: 2%;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-  font-size: 17px;
-  line-height: 35px;
-  text-align: left;
-  justify-content: center;
-  align-items: center;
-}
-
 h2{
   color: #145356;
   margin-top: 20px;
@@ -63,18 +49,19 @@ h2{
   transform: scale(1.2);
 }
 
-@media (max-width:800px){
+@media (max-width:1290px){
   .cabinetDescription p{
+    width: 99%;
     font-size: 14px;
     line-height: 30px;
-    margin-top: 30px;
+    margin-top: 3%;
   }
   .galerieParent{
     width: 96%;
   }
   .galerieParent .photos img{
     border: 2px solid #145356 ;
-    margin-top: 5px;
+    margin-top: 5%;
     display: inline;
     width: 210px;
     height: 110px;

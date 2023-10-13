@@ -79,8 +79,13 @@ const Contact = () => {
             <div className="textfield"><TextField style={{ width: '500px' }} id="email" label="Adresse mail" /></div>
             <div className="textfield"><TextField style={{ width: '500px' }} id="telephone" label="Telephone" /></div>
             <div className="textfield"><TextField style={{ width: '500px' }} id="message" label="Message" /></div>
-            {/* <div className="textfield"><TextField id="password" label="Password" value={data.password} onChange={(e) => { handle(e) }} /></div> */}
-            {/* <div className="textfield"><TextField id="birthdate" label="BirthDate" value={data.birthdate} onChange={(e) => { handle(e) }}/></div> */}
+          </div>
+          {/* For-Mobile */}
+          <div className='textfieldParentMobile'>
+            <div className="textfield"><TextField style={{ width: '98%' }} id="name" label="Non et Prenom" /></div>
+            <div className="textfield"><TextField style={{ width: '98%' }} id="email" label="Adresse mail" /></div>
+            <div className="textfield"><TextField style={{ width: '98%' }} id="telephone" label="Telephone" /></div>
+            <div className="textfield"><TextField style={{ width: '98%' }} id="message" label="Message" /></div>
           </div>
           <Stack direction="row" spacing={2}>
             <Button style={{ marginTop: '20px', marginLeft: '30px' }}
