@@ -37,7 +37,7 @@ input {
 ======================================= */
 
 .show-on-click {
-  display: block;
+  display: none;
   border-top: 2px solid #1c7b80;
   position: absolute;
   top: 60px;
@@ -51,9 +51,8 @@ input {
   /* border-top: 2px solid red; */
   box-sizing: inherit;
   width: 100%;
-  padding: 8px 0;
-  /* padding-top: 4%;
-  padding-bottom: 10%; */
+  padding:8px 0;
+  padding-bottom: 19%;
   font-size: 16px;
   text-align: center;
   border-bottom: 1px solid #1c7b80;
