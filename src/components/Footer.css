@@ -61,7 +61,7 @@ footer {
 
 
 
-@media (max-width:1290px) {
+@media only screen and (max-width: 768px) {
   footer {
     display: none;
   }
@@ -74,30 +74,25 @@ footer {
     background-color: #1b1b1b;
   }
   .address {
-    width: 90%;
+    width: 92%;
     text-align: center;
-    line-height: 20px;
+    line-height: 18px;
     margin-top: 2%;
+    font-weight: bold;
+    margin-left: 4%;
+    font-size: 13px;
   }
   .iconsOneTwo{
-    display: flex;
-  }
-  .icons1 {
-    width: 40%;
+    display: block;
+    width: 80%;
+    font-size: 14px;
     text-align: left;
     line-height: 20px;
     margin-top: 1%;
-
-  }
-  .icons2 {
-    width: 50%;
-    text-align: left;
-    line-height: 20px;
-    margin-top: 1%;
-    margin-left: 8%;
+    margin-left: 10%;
   }
   .whatsapp {
-    font-size: 12px;
+    font-size: 14px;
     background-color: #1b1b1b;
     border: black;
   }

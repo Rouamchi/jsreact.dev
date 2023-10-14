@@ -39,7 +39,6 @@ const Contact = () => {
   return (
     <>
       <Header />
-      {/* <Main pageName="Contact Page" designer="JS Designer"/> */}
       <section className='contactCards'>
         <div className='contactCard'>
           <PlaceIcon className='iconsContact' style={{ fontSize: 60 }} />
@@ -96,8 +95,32 @@ const Contact = () => {
           </Stack>
 
         </div>
-        <div className='cantactMap'>
+        {/* <div className='cantactMap'>
           <Map />
+        </div> */}
+      </section>
+
+      <section className='contactCardsMobile'>
+        <div className='contactCard'>
+          <EmailIcon className='iconsContact' style={{ fontSize: 40, marginTop:'3.5%' }} />
+          <div>
+            <h3 style={{ marginTop: '4%' }}>EMAIL</h3>
+            <p style={{ marginTop: '2%', marginBottom:'3%' }}>Abderrahimlouridi@gmail.com</p>
+          </div>
+        </div>
+        <div className='contactCard'>
+          <LocalPhoneIcon className='iconsContact' style={{ fontSize: 40, marginTop:'3.5%' }} />
+          <div>
+            <h3 style={{ marginTop: '6%', marginLeft: '5%' }}>TELEPHONE</h3>
+            <p style={{ marginTop: '4%', marginLeft: '2%', fontSize:'18px', marginBottom:'3%'}}> +212524461417</p>
+          </div>
+        </div>
+        <div className='contactCard'>
+          <PlaceIcon className='iconsContact' style={{ fontSize:40, marginTop:'8%'}} />
+          <div>
+            <h3 style={{ marginTop: '3%' }}>ADRESSE</h3>
+            <p style={{ marginTop: '1%', width:'99%', fontSize:'16px', marginBottom:'3%'}}>Imm Achifaa,4eme Etage, bd kinidy, en face l'hopital mohamed V, Safi, Maroc</p>
+          </div>
         </div>
       </section>
       <div>
@@ -105,7 +128,6 @@ const Contact = () => {
           <ArrowUpwardIcon
             style={{
               backgroundColor: '#00a3c8',
-              // backgroundColor: '#145356',
               position: 'fixed',
               bottom: '80px',
               right: '50px',
@@ -119,6 +141,9 @@ const Contact = () => {
           />
         )}
       </div>
+      <div className='cantactMap'>
+          <Map />
+        </div>
       <Footer />
     </>
   )

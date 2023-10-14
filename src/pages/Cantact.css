@@ -1,4 +1,4 @@
-.contactCards{
+.contactCards {
   display: flex;
   margin-top: 80px;
   margin-bottom: 80px;
@@ -6,7 +6,8 @@
   align-items: center;
   text-align: left;
 }
-.contactCards .contactCard{
+
+.contactCards .contactCard {
   border: 1px solid #b9b8b8;
   border-radius: 4px;
   width: 28%;
@@ -17,39 +18,49 @@
   display: flex;
 }
 
-.iconsContact{
+.iconsContact {
   background-color: #00a3c8;
   margin-top: 19px;
   margin-left: 15px;
   margin-right: 20px;
   border-radius: 50px;
-  padding:16px;
+  padding: 16px;
 }
 
-h3{
+h3 {
   color: #222222;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-p{
+
+p {
   color: #555555;
-  font-family:'Source Sans Pro';
+  font-family: 'Source Sans Pro';
 }
-.contactParent{
+
+.contactParent {
+  width: 50%;
   display: flex;
   justify-content: space-around;
   margin: 10px;
 }
 
-.textfield{
+.textfield {
   margin-top: 30px;
   margin-left: 30px;
 }
-.cantactMap{
-  width: 45%;
+
+.cantactMap {
+  width: 100%;
+  margin-top: 3%;
   height: auto;
   margin-bottom: 60px;
 }
-.textfieldParentMobile{
+
+.textfieldParentMobile {
+  display: none;
+}
+
+.contactCardsMobile {
   display: none;
 }
 
@@ -59,63 +70,78 @@ p{
 
 /*  --------- Mobile ---------- */
 
-@media (max-width:1290px){
-  .contactCards{
+@media only screen and (max-width: 768px) {
+  .contactCards {
+    display: none;
+  }
+
+  .contactCardsMobile {
     display: block;
-    margin-top: 40px;
-    margin-bottom: 40px;
+  }
+
+  .contactCardsMobile {
+    width: 99%;
+    display: block;
+    margin-top: 8%;
+    margin-bottom: 8%;
     justify-content: center;
     align-items: center;
     text-align: left;
   }
-  .contactCards .contactCard{
+
+  .contactCardsMobile .contactCard {
     border: 1px solid #b9b8b8;
     border-radius: 4px;
-    width: 80%;
-    height: 120px;
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 5%;
     margin-bottom: 2%;
     padding: 10px;
     display: flex;
 
   }
-  
-  .iconsContact{
+
+  .iconsContact {
     background-color: #00a3c8;
-    margin-top: 19px;
-    margin-left: 15px;
-    margin-right: 20px;
+    margin-left: 2%;
+    margin-right: 5%;
     border-radius: 50px;
-    padding:16px;
+    padding: 9px;
   }
-  
-  h3{
+
+  h3 {
     color: #222222;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
-  p{
+
+  p {
+    width: 99%;
+    font-size: 16px;
     color: #555555;
-    font-family:'Source Sans Pro';
+    font-family: 'Source Sans Pro';
   }
-  .contactParent{
+
+  .contactParent {
     width: 98%;
     display: block;
     margin: 10px;
   }
-  
-  .textfield{
+
+  .textfield {
     width: 80%;
     margin-top: 10px;
     margin-left: 30px;
   }
-  .cantactMap{
+
+  .cantactMap {
     width: 92%;
     margin: 4%;
   }
-  .textfieldParent{
+
+  .textfieldParent {
     display: none;
   }
-  .textfieldParentMobile{
+
+  .textfieldParentMobile {
     display: block;
   }
 }

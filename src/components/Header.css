@@ -3,7 +3,6 @@
   justify-content: space-around;
 }
 
-
 /* ==================
     3. header of mobile
 ===================== */
@@ -13,7 +12,8 @@
 
 /* Added from mobile-screen.css */
 
-@media (max-width: 1290px) {
+@media only screen and (max-width: 768px) {
+
   .show-when-mobile {
     display: block;
   }

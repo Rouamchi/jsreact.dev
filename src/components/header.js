@@ -77,28 +77,39 @@ const header = () => {
 
 
 
-      <header style={{ backgroundColor: "#1b1b1b", paddingLeft:'4%' }} className="show-when-mobile">
-        <h1>Dr. Abderrahim LOURIDI</h1>
-        <label className="absolute" AccueilFor="burger">
-          <i className="fas fa-bars" />
-        </label>
-        <input id="burger" type="checkbox" />
+      <header style={{ backgroundColor: "#1b1b1b", paddingLeft: '4%' }} className="show-when-mobile">
+        <h1 style={{ width: '85%' }}>
+          <Link to="/">Dr. Abderrahim LOURIDI</Link>
+        </h1>
+
+          <label className="absolute" For="burger">
+            <i className="fas fa-bars" />
+          </label>
+          <input id="burger" type="checkbox" />
+
         <div className="show-on-click">
           <div className="main-div">
             <label AccueilFor="Accueil">
-              Accueil <i className="fas fa-plus" />{" "}
+              {/* Accueil <i className="fas fa-plus" />{" "} */}
+              <NavLink className="fas fa-plus" to="/">{" "}Accueil{" "}</NavLink>
             </label>
             <input id="Accueil" type="checkbox" />
           </div>
           <div className="main-div">
             <label AccueilFor="Cabinet">
-              Cabinet <i className="fas fa-plus" />{" "}
+              {/* Cabinet <i className="fas fa-plus" />{" "} */}
+              <NavLink className="fas fa-plus" to="/cabinet">{" "}Cabinet{" "}
+              </NavLink>
             </label>
-            <input id="Accueil" type="checkbox" />
+            <input id="Cabinet" type="checkbox" />
           </div>
           <div className="main-div">
             <label AccueilFor="Spécialités">
-              Service <i className="fas fa-plus" />{" "}
+              {/* Service <i className="fas fa-plus" />{" "} */}
+              <NavLink className="fas fa-plus" to="/spécialités">
+                {" "}
+                Service{" "}
+              </NavLink>
             </label>
             <input id="Spécialités" type="checkbox" />
             <ul className="sub-div">
@@ -130,10 +141,13 @@ const header = () => {
             </ul>
           </div>
           <div className="main-div">
-            <label AccueilFor="js">
-              Contactez-Nous <i className="fas fa-plus" />{" "}
+            <label AccueilFor="Contact">
+              {/* Contactez-Nous <i className="fas fa-plus" />{" "} */}
+              <NavLink className="fas fa-plus" to="/contact">
+                {" "}Contact{" "}
+              </NavLink>
             </label>
-            <input id="js" type="checkbox" />
+            <input id="Contact" type="checkbox" />
             <ul className="sub-div">
               <li>
                 <a href=".">Whatsapp<ReactWhatsapp number="+212678572247" message=""></ReactWhatsapp></a>

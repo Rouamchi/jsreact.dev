@@ -4,6 +4,8 @@
 .backgroundGray {
   position: relative;
   display: flex;
+  /* background-position: center;
+  background-size: cover; */
 }
 
 .backgroundImage {
@@ -42,7 +44,6 @@
 .sectionService {
   border: 1px solid rgb(204, 204, 204);
   border-radius: 2px;
-  /* background-color: yellow; */
   width: 23%;
   height: 382px;
   margin-top: 10%;
@@ -51,7 +52,6 @@
 }
 
 .serviceItem {
-  /* border: 1px solid red; */
   width: 200px;
   display: block;
   color: #666666;
@@ -59,16 +59,13 @@
   margin-top: 3px;
   margin-left: 40px;
   border-bottom: 1px dashed #bbbbbb;
-  /* border-top: 1px dashed #bbbbbb; */
   padding-top: 14px;
   padding-bottom: 12px;
-  /* margin-bottom: 5px; */
 }
 .serviceItemCantact {
   width: 200px;
   display: block;
   color: #1b1b1b;
-  /* font-weight: bold; */
   font-size: 18px;
   margin-top: 3px;
   margin-left: 40px;
@@ -135,7 +132,6 @@
 }
 
 .ulDef li {
-  /* border: 1px solid red; */
   width: 80%;
   margin-left: 3%;
   line-height: 20px;
@@ -146,23 +142,28 @@
 }
 
 .sousTitreDef {
+  color: #555555;
   margin-top: 2%;
   margin-bottom: 2%;
   font-size: 20px;
   width: 80%;
   line-height: 16px;
-  color: #555555;
   letter-spacing: 0.3px;
   font-family: "Source Sans Pro", sans-serif;
 }
 
 /* For Mobile */
-@media (max-width:1290px){
+@media only screen and (max-width: 768px) {
+
   .ser{
     display: none;
   }
   .serMobile{
     display: block;
+  }
+  .backgroundGray {
+    position: relative;
+    display: flex;
   }
   .backgroundImage {
     width: 100%;
@@ -187,7 +188,7 @@
   }
   
   .sectionService {
-    width: 60%;
+    width: 70%;
     margin-left: 10%;
     margin-bottom: 10%;
   }
@@ -208,10 +209,13 @@
     font-size: 15px;
   }
   .sousTitreDef {
-    margin-top: 1%;
-    margin-bottom: 1%;
-    font-size: 18px;
+    
+    color: #555555;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    font-size: 17px;
     width: 90%;
+    line-height: 22px;
   }
   
   .titleDef {
