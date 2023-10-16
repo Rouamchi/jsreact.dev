@@ -1,6 +1,6 @@
 import './Main.css'
 import imgCover from '../images/imgCover.jpeg'
-import imgSection from '../images/imgSection.jpeg'
+import imgSection from '../images/imgSection.png'
 import Galerie from './Galerie'
 import ToTopButton from './ToTopButton'
 import Map from './Map'

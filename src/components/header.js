@@ -78,7 +78,7 @@ const header = () => {
 
 
       <header style={{ backgroundColor: "#1b1b1b", paddingLeft: '4%' }} className="show-when-mobile">
-        <h1 style={{ width: '85%' }}>
+        <h1 style={{width: '95%'}}>
           <Link to="/">Dr. Abderrahim LOURIDI</Link>
         </h1>
 
@@ -91,14 +91,14 @@ const header = () => {
           <div className="main-div">
             <label AccueilFor="Accueil">
               {/* Accueil <i className="fas fa-plus" />{" "} */}
-              <NavLink className="fas fa-plus" to="/">{" "}Accueil{" "}</NavLink>
+              <NavLink className="fas" to="/">{" "}Accueil{" "}</NavLink>
             </label>
             <input id="Accueil" type="checkbox" />
           </div>
           <div className="main-div">
             <label AccueilFor="Cabinet">
               {/* Cabinet <i className="fas fa-plus" />{" "} */}
-              <NavLink className="fas fa-plus" to="/cabinet">{" "}Cabinet{" "}
+              <NavLink className="fas" to="/cabinet">{" "}Cabinet{" "}
               </NavLink>
             </label>
             <input id="Cabinet" type="checkbox" />
@@ -106,7 +106,7 @@ const header = () => {
           <div className="main-div">
             <label AccueilFor="Spécialités">
               {/* Service <i className="fas fa-plus" />{" "} */}
-              <NavLink className="fas fa-plus" to="/spécialités">
+              <NavLink className="fas" to="/spécialités">
                 {" "}
                 Service{" "}
               </NavLink>
@@ -143,7 +143,7 @@ const header = () => {
           <div className="main-div">
             <label AccueilFor="Contact">
               {/* Contactez-Nous <i className="fas fa-plus" />{" "} */}
-              <NavLink className="fas fa-plus" to="/contact">
+              <NavLink className="fas" to="/contact">
                 {" "}Contact{" "}
               </NavLink>
             </label>

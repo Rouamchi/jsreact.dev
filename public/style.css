@@ -28,6 +28,10 @@
   justify-content: space-around;
 } */
 
+*{
+  margin-right: 0;
+}
+
 .flex {
   display: flex;
 }

@@ -2,6 +2,9 @@
  /* ==============================
      Animation for bigger screen
 =============================== */
+*{
+  margin-right: 0;
+}
 
 @keyframes down{
     0%{

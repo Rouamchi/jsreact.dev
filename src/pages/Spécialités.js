@@ -125,24 +125,7 @@ const Spécialités = () => {
             Selon l'organisation, en moyenne, 800 000 personnes se suicident chaque année, dont 86% dans les pays à faible revenu et à revenu intermédiaire. Plus de la moitié d'entre elles ont entre 15 et 44 ans. Les troubles mentaux sont l'une des causes principales de suicide que l'on peut traiter, mais l'accès au soin reste limité dans ces pays à cause, d'une part, du faible nombre d'intervenants en santé mentale, et d'autre part, du fait de la «honte» supposée à recourir à ces professionnels de la santé mentale
           </p>
         </section>
-        <div>
-          {toTopButton && (
-            <ArrowUpwardIcon
-              style={{
-                backgroundColor: '#00a3c8',
-                position: 'fixed',
-                bottom: '80px',
-                right: '50px',
-                height: '50px',
-                width: '50px',
-                fontSize: '50px',
-                borderRadius: '50px',
-                padding: '9px'
-              }}
-              onClick={scrollUp}
-            />
-          )}
-        </div>
+
         {/* -------------------------------------------------------- */}
 
         <div className='backgroundGray'>
@@ -213,25 +196,7 @@ const Spécialités = () => {
             Une TCC est une thérapie brève, validée scientifiquement qui porte sur les interactions entre pensées, émotions et comportements. Ces thérapies se concentrent sur les problèmes actuels de la personne, tout en prenant en compte leurs causes historiques. Elles aident à progressivement dépasser les symptômes invalidants et visent à renforcer les comportements adaptés. Une TCC s'appuie sur différentes techniques qui aident le patient à identifier les mécanismes à l'origine de ses difficultés, à expérimenter de nouveaux comportements et à sortir ainsi progressivement de cercles vicieux qui perpétuent et aggravent la souffrance psychique. Elle aide la personne à mieux comprendre les schémas de pensées négatives à l'origine de comportements inadaptés qui peuvent être source de détresse psychique.
           </p>
         </section>
-        <div>
-          {toTopButton && (
-            <ArrowUpwardIcon
-              style={{
-                backgroundColor: '#00a3c8',
-                // backgroundColor: '#145356',
-                position: 'fixed',
-                bottom: '80px',
-                right: '50px',
-                height: '50px',
-                width: '50px',
-                fontSize: '50px',
-                borderRadius: '50px',
-                padding: '9px'
-              }}
-              onClick={scrollUp}
-            />
-          )}
-        </div>
+        
         {/* ------------------------------------------------------ */}
 
         <div className='backgroundGray'>
@@ -303,25 +268,7 @@ const Spécialités = () => {
             </ul>
           </p>
         </section>
-        <div>
-          {toTopButton && (
-            <ArrowUpwardIcon
-              style={{
-                backgroundColor: '#00a3c8',
-                // backgroundColor: '#145356',
-                position: 'fixed',
-                bottom: '80px',
-                right: '50px',
-                height: '50px',
-                width: '50px',
-                fontSize: '50px',
-                borderRadius: '50px',
-                padding: '9px'
-              }}
-              onClick={scrollUp}
-            />
-          )}
-        </div>
+  
         {/* -------------------------------------------------------- */}
         <div className='backgroundGray'>
           <img className='backgroundImage' backgroundImage src={backgroundGray} alt="" />
@@ -403,24 +350,7 @@ const Spécialités = () => {
             </ul>
           </p>
         </section>
-        <div>
-          {toTopButton && (
-            <ArrowUpwardIcon
-              style={{
-                backgroundColor: '#00a3c8',
-                position: 'fixed',
-                bottom: '80px',
-                right: '50px',
-                height: '50px',
-                width: '50px',
-                fontSize: '50px',
-                borderRadius: '50px',
-                padding: '9px'
-              }}
-              onClick={scrollUp}
-            />
-          )}
-        </div>
+
         {/* ----------------------------------------------------- */}
         <div className='backgroundGray'>
           <img className='backgroundImage' src={backgroundGray} alt="" />
@@ -519,6 +449,42 @@ const Spécialités = () => {
           </div>
         </section>
 
+        <div className='sectionService'>
+          <h5 className='nosServices'>Nos Services</h5>
+          <ul>
+            <li>
+              <NavLink className="serviceItem" to="/psychiatre">
+                {" "}Psychiatre{" "}
+              </NavLink>
+            </li>
+            <li>
+              <NavLink className="serviceItem" to="/psychothérapeute">
+                {" "}Psychothérapeute{" "}
+              </NavLink>
+            </li>
+            <li>
+              <NavLink className="serviceItem" to="/addictiologue">
+                {" "}Addictiologue{" "}
+              </NavLink>
+            </li>
+            <li>
+              <NavLink className="serviceItem" to="/sexologue">
+                {" "}Sexologue{" "}
+              </NavLink>
+            </li>
+            <li>
+              <NavLink className="serviceItem" to="/gerontoPsychiatrie">
+                {" "}Geronto-Psychiatrie{" "}
+              </NavLink>
+            </li>
+            <li>
+              <NavLink className="serviceItemCantact" to="/Spécialités">
+                {" "}Tous Mes Services{" "}
+              </NavLink>
+            </li>
+          </ul>
+        </div>
+
         <section>
           <p className='titleDef'>Psychiatre</p>
           <p className='bodyDef'>
@@ -563,24 +529,7 @@ const Spécialités = () => {
             Selon l'organisation, en moyenne, 800 000 personnes se suicident chaque année, dont 86% dans les pays à faible revenu et à revenu intermédiaire. Plus de la moitié d'entre elles ont entre 15 et 44 ans. Les troubles mentaux sont l'une des causes principales de suicide que l'on peut traiter, mais l'accès au soin reste limité dans ces pays à cause, d'une part, du faible nombre d'intervenants en santé mentale, et d'autre part, du fait de la «honte» supposée à recourir à ces professionnels de la santé mentale
           </p>
         </section>
-        <div>
-          {toTopButton && (
-            <ArrowUpwardIcon
-              style={{
-                backgroundColor: '#00a3c8',
-                position: 'fixed',
-                bottom: '80px',
-                right: '50px',
-                height: '50px',
-                width: '50px',
-                fontSize: '50px',
-                borderRadius: '50px',
-                padding: '9px'
-              }}
-              onClick={scrollUp}
-            />
-          )}
-        </div>
+
         {/* -------------------------------------------------------- */}
 
         <div className='backgroundGray'>
@@ -594,6 +543,7 @@ const Spécialités = () => {
         </section>
 
         <section>
+          
           <p className='titleDef'>Psychothérapeute</p>
           <p className='bodyDef'>
             la psychothérapie est « un traitement psychologique pour un trouble mental, pour des perturbations comportementales ou pour tout autre problème entraînant une souffrance ou une détresse psychologique qui a pour but de favoriser, chez le patient, des changements significatifs dans son fonctionnement cognitif, émotionnel ou comportemental, dans son système interpersonnel, dans sa personnalité ou dans son état de santé.
@@ -616,24 +566,7 @@ const Spécialités = () => {
             Une TCC est une thérapie brève, validée scientifiquement qui porte sur les interactions entre pensées, émotions et comportements. Ces thérapies se concentrent sur les problèmes actuels de la personne, tout en prenant en compte leurs causes historiques. Elles aident à progressivement dépasser les symptômes invalidants et visent à renforcer les comportements adaptés. Une TCC s'appuie sur différentes techniques qui aident le patient à identifier les mécanismes à l'origine de ses difficultés, à expérimenter de nouveaux comportements et à sortir ainsi progressivement de cercles vicieux qui perpétuent et aggravent la souffrance psychique. Elle aide la personne à mieux comprendre les schémas de pensées négatives à l'origine de comportements inadaptés qui peuvent être source de détresse psychique.
           </p>
         </section>
-        <div>
-          {toTopButton && (
-            <ArrowUpwardIcon
-              style={{
-                backgroundColor: '#00a3c8',
-                position: 'fixed',
-                bottom: '80px',
-                right: '50px',
-                height: '50px',
-                width: '50px',
-                fontSize: '50px',
-                borderRadius: '50px',
-                padding: '9px'
-              }}
-              onClick={scrollUp}
-            />
-          )}
-        </div>
+
         {/* ------------------------------------------------------ */}
 
         <div className='backgroundGray'>
@@ -668,24 +601,7 @@ const Spécialités = () => {
             </ul>
           </p>
         </section>
-        <div>
-          {toTopButton && (
-            <ArrowUpwardIcon
-              style={{
-                backgroundColor: '#00a3c8',
-                position: 'fixed',
-                bottom: '80px',
-                right: '50px',
-                height: '50px',
-                width: '50px',
-                fontSize: '50px',
-                borderRadius: '50px',
-                padding: '9px'
-              }}
-              onClick={scrollUp}
-            />
-          )}
-        </div>
+
         {/* -------------------------------------------------------- */}
         <div className='backgroundGray'>
           <img className='backgroundImage' backgroundImage src={backgroundGray} alt="" />
@@ -732,24 +648,7 @@ const Spécialités = () => {
             </ul>
           </p>
         </section>
-        <div>
-          {toTopButton && (
-            <ArrowUpwardIcon
-              style={{
-                backgroundColor: '#00a3c8',
-                position: 'fixed',
-                bottom: '80px',
-                right: '50px',
-                height: '50px',
-                width: '50px',
-                fontSize: '50px',
-                borderRadius: '50px',
-                padding: '9px'
-              }}
-              onClick={scrollUp}
-            />
-          )}
-        </div>
+
         {/* ----------------------------------------------------- */}
         <div className='backgroundGray'>
           <img className='backgroundImage' src={backgroundGray} alt="" />
@@ -797,41 +696,6 @@ const Spécialités = () => {
               onClick={scrollUp}
             />
           )}
-        </div>
-        <div className='sectionService'>
-          <h5 className='nosServices'>Nos Services</h5>
-          <ul>
-            <li>
-              <NavLink className="serviceItem" to="/psychiatre">
-                {" "}Psychiatre{" "}
-              </NavLink>
-            </li>
-            <li>
-              <NavLink className="serviceItem" to="/psychothérapeute">
-                {" "}Psychothérapeute{" "}
-              </NavLink>
-            </li>
-            <li>
-              <NavLink className="serviceItem" to="/addictiologue">
-                {" "}Addictiologue{" "}
-              </NavLink>
-            </li>
-            <li>
-              <NavLink className="serviceItem" to="/sexologue">
-                {" "}Sexologue{" "}
-              </NavLink>
-            </li>
-            <li>
-              <NavLink className="serviceItem" to="/gerontoPsychiatrie">
-                {" "}Geronto-Psychiatrie{" "}
-              </NavLink>
-            </li>
-            <li>
-              <NavLink className="serviceItemCantact" to="/Spécialités">
-                {" "}Tous Mes Services{" "}
-              </NavLink>
-            </li>
-          </ul>
         </div>
       </div>
       <Footer />

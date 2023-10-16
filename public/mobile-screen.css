@@ -9,6 +9,11 @@
 /* ====================================
     1. Font Awesom hamburger menu
 ======================================= */
+
+*{
+  margin-right: 0;
+}
+
 .absolute {
   position: absolute;
   top: 2.5%;
@@ -21,15 +26,13 @@ input {
 }
 
 .fa-bars { 
-  font-size: 30px;
   transform: scaleX(1.4);
   width: 75%;
 }
 
-
 .fas{
   position: absolute;
-  right: 10vw;
+  right: 5vw;
 }
 
 /* ====================================
@@ -48,16 +51,19 @@ input {
   z-index:4 !important;
 }
 .show-on-click label {
-  /* border-top: 2px solid red; */
   box-sizing: inherit;
   width: 100%;
   padding:8px 0;
-  padding-bottom: 19%;
-  font-size: 16px;
+  padding-top: 13%;
+  padding-bottom: 25%;
+  font-size: 17px;
   text-align: center;
   border-bottom: 1px solid #1c7b80;
 }
 
+.main-div label .fas{
+  margin-right: 11%;
+}
 /* .show-on-click label:hover {
   color: #1c7b80;
   box-shadow: 0 0 5px #1c7b80;
