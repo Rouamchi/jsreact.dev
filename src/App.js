@@ -22,7 +22,6 @@ function App() {
         <Route path='/spécialités' element={<Spécialités/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/cabinet' element={<Cabinet/>}/>
-
         <Route path='/psychiatre' element={<Psychiatre/>}/>
         <Route path='/psychothérapeute' element={<Psychothérapeute/>}/>
         <Route path='/addictiologue' element={<Addictiologue/>}/>
