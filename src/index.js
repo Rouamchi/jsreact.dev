@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-
-
 import Home from './pages/Home';
 import Accueil from './pages/Accueil';
 import Spécialités from './pages/Spécialités';
@@ -13,7 +11,6 @@ import Sexologue from './pages/Sexologue';
 import GerontoPsychiatrie from './pages/GerontoPsychiatrie';
 import Contact from './pages/Contact';
 import Cabinet from './pages/Cabinet';
-
 
 
 import {

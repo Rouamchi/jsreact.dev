@@ -28,6 +28,8 @@ const Psychothérapeute = () => {
       behavior: "smooth",
     })
   }
+
+  
   return (
     <>
       <Header />

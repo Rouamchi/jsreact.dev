@@ -1,6 +1,5 @@
 
 import {Routes, Route} from 'react-router-dom';
-import ScrollToTop from 'react-scroll-to-top'
 import Home from './pages/Home';
 import Accueil from './pages/Accueil';
 import Spécialités from './pages/Spécialités';

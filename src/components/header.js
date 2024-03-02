@@ -8,7 +8,7 @@ const header = () => {
     <>
       <header className="hide-when-mobile mohammed">
         <h1>
-          <Link to="/">Dr. Abderrahim LOURIDI</Link>
+          <Link to="/">DARKAOUI ADVISORY</Link>
         </h1>
         <ul className="flex">
           <li className="main-list">
@@ -18,7 +18,7 @@ const header = () => {
             </NavLink>
           </li>
           <li className="main-list">
-            <NavLink className="main-link" to="/cabinet">{" "}Cabinet{" "}
+            <NavLink className="main-link" to="/cabinet">{" "}Salle De Formation{" "}
             </NavLink>
           </li>
           <li className="main-list">
@@ -57,17 +57,17 @@ const header = () => {
           <li className="main-list">
             <NavLink className="main-link" to="/contact">
               {" "}
-              Contactez-Nous{" "}
+              Contact{" "}
             </NavLink>
             <ul className="sub-ul sub-of-js textsize">
               <li>
-                <FaWhatsapp className='iconsHeader' /> <a href="."><ReactWhatsapp className='whatsapp' number="+212678572247" message="">Whatsapp</ReactWhatsapp></a>
+                <FaWhatsapp className='iconsHeader' /> <a href="."><ReactWhatsapp className='whatsapp' number="+212602790203" message="">Whatsapp</ReactWhatsapp></a>
               </li>
               <li>
                 <FaFacebook className='iconsHeader' /> <a href="https://www.facebook.com/Lour56.A" target='_blank' rel="noreferrer">Facebook</a>
               </li>
               <li>
-                <FaEnvelope className='iconsHeader' /> <a href="https://mail.google.com/mail/u/0/?hl=fr#inbox?compose=CllgCJNrcwzNgbdQPPzktPVvlSScCBJBskccNTtVfhlDCGrgmKhfjBsvpgrSxMrbfGnwvsHPLZL" target='_blank' rel="noreferrer">
+                <FaEnvelope className='iconsHeader' /> <a href="https://mail.google.com/mail/u/0/?hl=fr#search/daflowess.group%40gmail.com?compose=new" target='_blank' rel="noreferrer">
                   Email</a>
               </li>
             </ul>
@@ -77,9 +77,9 @@ const header = () => {
 
 
 
-      <header style={{ backgroundColor: "#1b1b1b", paddingLeft: '4%' }} className="show-when-mobile">
+      <header style={{ backgroundColor: "#062a78", paddingLeft: '4%' }} className="show-when-mobile">
         <h1 style={{width: '95%'}}>
-          <Link to="/">Dr. Abderrahim LOURIDI</Link>
+          <Link to="/">DARKAOUI ADVISORY</Link>
         </h1>
 
           <label className="absolute" For="burger">
@@ -98,7 +98,7 @@ const header = () => {
           <div className="main-div">
             <label AccueilFor="Cabinet">
               {/* Cabinet <i className="fas fa-plus" />{" "} */}
-              <NavLink className="fas" to="/cabinet">{" "}Cabinet{" "}
+              <NavLink className="fas" to="/cabinet">{" "}Salle De Formation{" "}
               </NavLink>
             </label>
             <input id="Cabinet" type="checkbox" />
@@ -150,13 +150,13 @@ const header = () => {
             <input id="Contact" type="checkbox" />
             <ul className="sub-div">
               <li>
-                <a href=".">Whatsapp<ReactWhatsapp number="+212678572247" message=""></ReactWhatsapp></a>
+                <a href=".">Whatsapp<ReactWhatsapp number="+212602790203" message=""></ReactWhatsapp></a>
               </li>
               <li>
                 <a href="https://www.facebook.com/Lour56.A" target='_blank' rel="noreferrer">Facebook</a>
               </li>
               <li>
-                <a href="https://mail.google.com/mail/u/0/?hl=fr#inbox?compose=CllgCJNrcwzNgbdQPPzktPVvlSScCBJBskccNTtVfhlDCGrgmKhfjBsvpgrSxMrbfGnwvsHPLZL" target='_blank' rel="noreferrer">
+                <a href="https://mail.google.com/mail/u/0/?hl=fr#search/daflowess.group%40gmail.com?compose=new" target='_blank' rel="noreferrer">
                   Email</a>
               </li>
             </ul>

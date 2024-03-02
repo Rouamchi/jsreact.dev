@@ -1,5 +1,5 @@
 import './Main.css'
-import imgCover from '../images/imgCover.jpeg'
+import DAFCover from '../images/DAFCover1.png'
 import imgSection from '../images/imgSection.png'
 import Galerie from './Galerie'
 import ToTopButton from './ToTopButton'
@@ -11,7 +11,7 @@ const Main = () => {
       <main>
 
         <section className='docname'>
-          <img src={imgCover} alt="" text='' />
+          <img src={DAFCover} alt="" text='' />
           <div>Dr. LOURIDI Abderrahim Spécialiste en Psychiatrie
             <p style={{ color: 'white', fontFamily: 'arial' }}>Neuro-Psychiatre à Safi</p>
           </div>
@@ -36,7 +36,7 @@ const Main = () => {
         </section>
 
         <section>
-          <div className='doccabinet'>CABINET</div>
+          <div className='doccabinet'>Salle de Formation</div>
           <Galerie />
 
           <div className='docmap'>Obtenir l'itinéraire</div>

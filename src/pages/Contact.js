@@ -44,21 +44,21 @@ const Contact = () => {
           <PlaceIcon className='iconsContact' style={{ fontSize: 60 }} />
           <div>
             <h3 style={{ marginTop: '10px' }}>ADRESSE</h3>
-            <p style={{ marginTop: '5px' }}>Imm Achifaa,4eme Etage, bd kinidy, en face l'hopital mohamed V, Safi, Maroc</p>
+            <p style={{ marginTop: '5px' }}>LOT ZAITOUNE N°38 JNANE ILLANE, SAFI, MAROC</p>
           </div>
         </div>
         <div className='contactCard'>
           <EmailIcon className='iconsContact' style={{ fontSize: 60 }} />
           <div>
             <h3 style={{ marginTop: '26px' }}>EMAIL</h3>
-            <p style={{ marginTop: '5px' }}>Abderrahimlouridi@gmail.com</p>
+            <p style={{ marginTop: '5px' }}>Daflowess.group@gmail.com</p>
           </div>
         </div>
         <div className='contactCard'>
           <LocalPhoneIcon className='iconsContact' style={{ fontSize: 60 }} />
           <div>
             <h3 style={{ marginTop: '28px', marginLeft: '35px' }}>TELEPHONE</h3>
-            <p style={{ marginTop: '5px', marginLeft: '20px' }}> 0524461417 / 0678572247</p>
+            <p style={{ marginTop: '5px', marginLeft: '20px' }}> 0524464633 / 0602790203</p>
           </div>
         </div>
       </section>
@@ -105,21 +105,21 @@ const Contact = () => {
           <EmailIcon className='iconsContact' style={{ fontSize: 40, marginTop:'3.5%' }} />
           <div>
             <h3 style={{ marginTop: '4%' }}>EMAIL</h3>
-            <p style={{ marginTop: '2%', marginBottom:'3%' }}>Abderrahimlouridi@gmail.com</p>
+            <p style={{ marginTop: '2%', marginBottom:'3%' }}>Daflowess.group@gmail.com</p>
           </div>
         </div>
         <div className='contactCard'>
           <LocalPhoneIcon className='iconsContact' style={{ fontSize: 40, marginTop:'3.5%' }} />
           <div>
             <h3 style={{ marginTop: '6%', marginLeft: '5%' }}>TELEPHONE</h3>
-            <p style={{ marginTop: '4%', marginLeft: '2%', fontSize:'18px', marginBottom:'3%'}}> +212524461417</p>
+            <p style={{ marginTop: '4%', marginLeft: '2%', fontSize:'18px', marginBottom:'3%'}}> +212602790203</p>
           </div>
         </div>
         <div className='contactCard'>
           <PlaceIcon className='iconsContact' style={{ fontSize:40, marginTop:'8%'}} />
           <div>
             <h3 style={{ marginTop: '3%' }}>ADRESSE</h3>
-            <p style={{ marginTop: '1%', width:'99%', fontSize:'16px', marginBottom:'3%'}}>Imm Achifaa,4eme Etage, bd kinidy, en face l'hopital mohamed V, Safi, Maroc</p>
+            <p style={{ marginTop: '1%', width:'99%', fontSize:'16px', marginBottom:'3%'}}>Lot Zaitoune N°38 Jnane Illane, Safi, Maroc</p>
           </div>
         </div>
       </section>

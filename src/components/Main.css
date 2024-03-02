@@ -11,7 +11,7 @@ div img {
 
 main .docname div {
   width: 100%;
-  background-color: #145356;
+  background-color: #062a78;
   padding: 10px;
   padding-top: 20px;
   position: relative;
@@ -67,7 +67,7 @@ main .docinfo {
 main .doccabinet {
   /* border: 2px solid blue; */
   height: 90px;
-  background-color: #145356;
+  background-color: #062a78;
   padding: 10px;
   padding-top: 20px;
   position: relative;
@@ -88,7 +88,7 @@ main .doccabinet {
 main .docmap {
   /* border: 2px solid blue; */
   height: 90px;
-  background-color: #145356;
+  background-color: #ffa500;
   padding: 10px;
   padding-top: 20px;
   position: relative;
