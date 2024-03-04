@@ -22,7 +22,7 @@ header{
 }
 
  h1{
-     animation: ltr 2s 1;
+     animation: ltr 3s 1;
      
  }
 
@@ -31,7 +31,7 @@ header{
 @keyframes ltr{
     0%{
         transform: translateX(-100px);
-        color: cyan;
+        color: #ffa500;
     }
 
 50%{
@@ -52,7 +52,7 @@ header{
 
 
 .sub-ul, .sub-sub-ul{
-    animation: hoverrr 1s 1;
+    animation: hoverrr 2s 1;
 }
 
 @keyframes hoverrr{

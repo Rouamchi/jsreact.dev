@@ -29,11 +29,9 @@
   text-align: left;
   font-size: 14px;
 }
-.whatsapp{
-  background-color: #1b1b1b;
-}
+
 .whatsapp:hover{
-  color: #145356;
+  color: #ffa500;
   font-weight: bold;
 }
 .iconsHeader{

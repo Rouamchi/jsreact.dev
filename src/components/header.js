@@ -18,7 +18,7 @@ const header = () => {
             </NavLink>
           </li>
           <li className="main-list">
-            <NavLink className="main-link" to="/cabinet">{" "}Salle De Formation{" "}
+            <NavLink className="main-link" to="/SalleDeFormation">{" "}Salle De Formation{" "}
             </NavLink>
           </li>
           <li className="main-list">
@@ -28,8 +28,8 @@ const header = () => {
             </NavLink>
             <ul className="sub-ul textsize">
               <li>
-                <NavLink className="textsize" to="/psychiatre">
-                  {" "}Psychiatre{" "}
+                <NavLink className="textsize" to="/conseilDeGestion">
+                  {" "}Conseil De Gestion{" "}
                 </NavLink>
               </li>
               <li>
@@ -61,7 +61,7 @@ const header = () => {
             </NavLink>
             <ul className="sub-ul sub-of-js textsize">
               <li>
-                <FaWhatsapp className='iconsHeader' /> <a href="."><ReactWhatsapp className='whatsapp' number="+212602790203" message="">Whatsapp</ReactWhatsapp></a>
+                <FaWhatsapp className='iconsHeader' /> <a href="."><ReactWhatsapp className='whatsapp' number="+212602790203" message="" style={{backgroundColor: '#383838'}}>Whatsapp</ReactWhatsapp></a>
               </li>
               <li>
                 <FaFacebook className='iconsHeader' /> <a href="https://www.facebook.com/Lour56.A" target='_blank' rel="noreferrer">Facebook</a>
@@ -77,7 +77,7 @@ const header = () => {
 
 
 
-      <header style={{ backgroundColor: "#062a78", paddingLeft: '4%' }} className="show-when-mobile">
+      <header style={{ backgroundColor: "#383838", paddingLeft: '4%' }} className="show-when-mobile">
         <h1 style={{width: '95%'}}>
           <Link to="/">DARKAOUI ADVISORY</Link>
         </h1>
@@ -96,12 +96,12 @@ const header = () => {
             <input id="Accueil" type="checkbox" />
           </div>
           <div className="main-div">
-            <label AccueilFor="Cabinet">
-              {/* Cabinet <i className="fas fa-plus" />{" "} */}
-              <NavLink className="fas" to="/cabinet">{" "}Salle De Formation{" "}
+            <label AccueilFor="SalleDeFormation">
+              {/* SalleDeFormation <i className="fas fa-plus" />{" "} */}
+              <NavLink className="fas" to="/salleDeFormation">{" "}Salle De Formation{" "}
               </NavLink>
             </label>
-            <input id="Cabinet" type="checkbox" />
+            <input id="SalleDeFormation" type="checkbox" />
           </div>
           <div className="main-div">
             <label AccueilFor="Spécialités">
@@ -114,8 +114,8 @@ const header = () => {
             <input id="Spécialités" type="checkbox" />
             <ul className="sub-div">
               <li>
-                <NavLink className="textsize" to="/psychiatre">
-                  {" "}Psychiatre{" "}
+                <NavLink className="textsize" to="/conseilDeGestion">
+                  {" "}Conseil De Gestion{" "}
                 </NavLink>
               </li>
               <li>

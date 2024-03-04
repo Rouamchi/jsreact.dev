@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react'
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward'
 import Footer from '../components/Footer'
 
-const Cabinet = () => {
+const SalleDeFormation = () => {
   const [toTopButton, setToTopButton] = useState(false);
 
   useEffect(() => {
@@ -32,7 +32,7 @@ const Cabinet = () => {
       {toTopButton && (
         <ArrowUpwardIcon
           style={{
-            backgroundColor: '#00a3c8',
+            backgroundColor: '#062a78',
             // backgroundColor: '#145356',
             position: 'fixed',
             bottom: '80px',
@@ -52,4 +52,4 @@ const Cabinet = () => {
   )
 }
 
-export default Cabinet
+export default SalleDeFormation

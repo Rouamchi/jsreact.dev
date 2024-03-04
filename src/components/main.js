@@ -1,5 +1,5 @@
 import './Main.css'
-import DAFCover from '../images/DAFCover1.png'
+import DAFCover from '../images/DAFCover.png'
 import imgSection from '../images/imgSection.png'
 import Galerie from './Galerie'
 import ToTopButton from './ToTopButton'
@@ -12,8 +12,8 @@ const Main = () => {
 
         <section className='docname'>
           <img src={DAFCover} alt="" text='' />
-          <div>Dr. LOURIDI Abderrahim Spécialiste en Psychiatrie
-            <p style={{ color: 'white', fontFamily: 'arial' }}>Neuro-Psychiatre à Safi</p>
+          <div>DARKAOUI ADVISORY FLOWESS
+            <p style={{ color: 'orange', fontFamily: 'arial' }}>Formation Professionnelle & Solutions de Gestion</p>
           </div>
         </section>
 

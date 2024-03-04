@@ -4,13 +4,13 @@ import './index.css';
 import Home from './pages/Home';
 import Accueil from './pages/Accueil';
 import Spécialités from './pages/Spécialités';
-import Psychiatre from './pages/Psychiatre';
+import ConseilDeGestion from './pages/ConseilDeGestion.js';
 import Psychothérapeute from './pages/Psychothérapeute';
 import Addictiologue from './pages/Addictiologue';
 import Sexologue from './pages/Sexologue';
 import GerontoPsychiatrie from './pages/GerontoPsychiatrie';
 import Contact from './pages/Contact';
-import Cabinet from './pages/Cabinet';
+import SalleDeFormation from './pages/SalleDeFormation';
 
 
 import {
@@ -29,8 +29,8 @@ const router = createBrowserRouter([
     element: <Accueil/>,
   },
   {
-    path: "/cabinet",
-    element: <Cabinet/>,
+    path: "/salleDeFormation",
+    element: <SalleDeFormation/>,
   },
   {
     path: "/spécialités",
@@ -42,8 +42,8 @@ const router = createBrowserRouter([
   },
 
   {
-    path: "/psychiatre",
-    element: <Psychiatre/>,
+    path: "/conseilDeGestion",
+    element: <ConseilDeGestion/>,
   },
   {
     path: "/psychothérapeute",

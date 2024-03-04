@@ -3,7 +3,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import { NavLink } from 'react-router-dom'
 import { useEffect, useState } from 'react'
-import psychiatre from '../images/psychiatre.png'
+import conseil from '../images/conseil.png'
 import psychothérapeute from '../images/psychothérapeute.png'
 import addictologie from '../images/addictologie.png'
 import sexologie from '../images/sexologie.png'
@@ -38,18 +38,18 @@ const Spécialités = () => {
       <div className='ser'>
         <div className='backgroundGray'>
           <img className='backgroundImage' src={backgroundGray} alt="" />
-          <p className='backgroundText'>Psychiatrie</p>
+          <p className='backgroundText'>Conseil De Gestion</p>
         </div>
         <section className='sectionImgService'>
           <div className='sectionImg'>
-            <img src={psychiatre} alt="" text='' />
+            <img src={conseil} alt="" text='' />
           </div>
           <div className='sectionService'>
             <h5 className='nosServices'>Nos Services</h5>
             <ul>
               <li>
-                <NavLink className="serviceItem" to="/psychiatre">
-                  {" "}Psychiatre{" "}
+                <NavLink className="serviceItem" to="/conseilDeGestion">
+                  {" "}Conseil De Gestion{" "}
                 </NavLink>
               </li>
               <li>
@@ -82,7 +82,7 @@ const Spécialités = () => {
         </section>
 
         <section>
-          <p className='titleDef'>Psychiatre</p>
+          <p className='titleDef'>Conseil De Gestion</p>
           <p className='bodyDef'>
             Un psychiatre est un medecin spécialisé en santé Mentale, exerçant la psychiatrie. Il diagnostique, traite et tente de prévenir la souffrance psychique et les les maladies mentales.
             <br />
@@ -140,8 +140,8 @@ const Spécialités = () => {
             <h5 className='nosServices'>Nos Services</h5>
             <ul>
               <li>
-                <NavLink className="serviceItem" to="/psychiatre">
-                  {" "}Psychiatre{" "}
+                <NavLink className="serviceItem" to="/conseilDeGestion">
+                  {" "}Conseil De Gestion{" "}
                 </NavLink>
               </li>
               <li>
@@ -213,8 +213,8 @@ const Spécialités = () => {
             <h5 className='nosServices'>Nos Services</h5>
             <ul>
               <li>
-                <NavLink className="serviceItem" to="/psychiatre">
-                  {" "}Psychiatre{" "}
+                <NavLink className="serviceItem" to="/conseilDeGestion">
+                  {" "}Conseil De Gestion{" "}
                 </NavLink>
               </li>
               <li>
@@ -282,8 +282,8 @@ const Spécialités = () => {
             <h5 className='nosServices'>Nos Services</h5>
             <ul>
               <li>
-                <NavLink className="serviceItem" to="/psychiatre">
-                  {" "}Psychiatre{" "}
+                <NavLink className="serviceItem" to="/conseilDeGestion">
+                  {" "}Conseil De Gestion{" "}
                 </NavLink>
               </li>
               <li>
@@ -364,8 +364,8 @@ const Spécialités = () => {
             <h5 className='nosServices'>Nos Services</h5>
             <ul>
               <li>
-                <NavLink className="serviceItem" to="/psychiatre">
-                  {" "}Psychiatre{" "}
+                <NavLink className="serviceItem" to="/conseilDeGestion">
+                  {" "}Conseil De Gestion{" "}
                 </NavLink>
               </li>
               <li>
@@ -420,7 +420,7 @@ const Spécialités = () => {
           {toTopButton && (
             <ArrowUpwardIcon
               style={{
-                backgroundColor: '#00a3c8',
+                backgroundColor: '#062a78',
                 position: 'fixed',
                 bottom: '80px',
                 right: '50px',
@@ -441,11 +441,11 @@ const Spécialités = () => {
       <div className='serMobile'>
         <div className='backgroundGray'>
           <img className='backgroundImage' src={backgroundGray} alt="" />
-          <p className='backgroundText'>Psychiatrie</p>
+          <p className='backgroundText'>Conseil De Gestion</p>
         </div>
         <section className='sectionImgService'>
           <div className='sectionImg'>
-            <img src={psychiatre} alt="" text='' />
+            <img src={conseil} alt="" text='' />
           </div>
         </section>
 
@@ -453,8 +453,8 @@ const Spécialités = () => {
           <h5 className='nosServices'>Nos Services</h5>
           <ul>
             <li>
-              <NavLink className="serviceItem" to="/psychiatre">
-                {" "}Psychiatre{" "}
+              <NavLink className="serviceItem" to="/conseilDeGestion">
+                {" "}Conseil De Gestion{" "}
               </NavLink>
             </li>
             <li>
@@ -486,7 +486,7 @@ const Spécialités = () => {
         </div>
 
         <section>
-          <p className='titleDef'>Psychiatre</p>
+          <p className='titleDef'>Conseil De Gestion</p>
           <p className='bodyDef'>
             Un psychiatre est un medecin spécialisé en santé Mentale, exerçant la psychiatrie. Il diagnostique, traite et tente de prévenir la souffrance psychique et les les maladies mentales.
             <br />
@@ -683,7 +683,7 @@ const Spécialités = () => {
           {toTopButton && (
             <ArrowUpwardIcon
               style={{
-                backgroundColor: '#00a3c8',
+                backgroundColor: '#062a78',
                 position: 'fixed',
                 bottom: '80px',
                 right: '50px',

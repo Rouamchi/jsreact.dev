@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
-import psychiatre from '../images/psychiatre.png'
+import conseil from '../images/conseil.png'
 import backgroundGray from '../images/backgroundGray.png'
 import { NavLink } from 'react-router-dom'
 import { useEffect, useState } from 'react'
@@ -8,7 +8,7 @@ import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward'
 import Footer from '../components/Footer'
 import './Service.css'
 
-const Psychiatre = () => {
+const ConseilDeGestion = () => {
   const [toTopButton, setToTopButton] = useState(false);
 
   useEffect(() => {
@@ -32,18 +32,18 @@ const Psychiatre = () => {
       <Header />
       <div className='backgroundGray'>
         <img className='backgroundImage' src={backgroundGray} alt="" />
-        <p className='backgroundText'>Psychiatrie</p>
+        <p className='backgroundText'>Conseil De Gestion</p>
       </div>
       <section className='sectionImgService'>
         <div className='sectionImg'>
-          <img src={psychiatre} alt="" text='' />
+          <img src={conseil} alt="" text='' />
         </div>
         <div className='sectionService'>
           <h5 className='nosServices'>Nos Services</h5>
           <ul>
             <li>
-              <NavLink className="serviceItem" to="/psychiatre">
-                {" "}Psychiatre{" "}
+              <NavLink className="serviceItem" to="/conseilDeGestion">
+                {" "}Conseil De Gestion{" "}
               </NavLink>
             </li>
             <li>
@@ -76,7 +76,7 @@ const Psychiatre = () => {
       </section>
 
       <section>
-        <p className='titleDef'>Psychiatre</p>
+        <p className='titleDef'>Conseil De Gestion</p>
         <p className='bodyDef'>
           Un psychiatre est un medecin spécialisé en santé Mentale, exerçant la psychiatrie. Il diagnostique, traite et tente de prévenir la souffrance psychique et les les maladies mentales.
           <br />
@@ -123,7 +123,7 @@ const Psychiatre = () => {
         {toTopButton && (
           <ArrowUpwardIcon
             style={{
-              backgroundColor: '#00a3c8',
+              backgroundColor: '#062a78',
               position: 'fixed',
               bottom: '80px',
               right: '50px',
@@ -142,4 +142,4 @@ const Psychiatre = () => {
   )
 }
 
-export default Psychiatre
+export default ConseilDeGestion

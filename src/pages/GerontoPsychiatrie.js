@@ -98,7 +98,7 @@ const GerontoPsychiatrie = () => {
         {toTopButton && (
           <ArrowUpwardIcon
             style={{
-              backgroundColor: '#00a3c8',
+              backgroundColor: '#062a78',
               position: 'fixed',
               bottom: '80px',
               right: '50px',

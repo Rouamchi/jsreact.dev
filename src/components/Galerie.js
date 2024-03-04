@@ -6,12 +6,12 @@ import img3 from '../images/img3.jpeg'
 import img4 from '../images/img4.jpeg'
 import img5 from '../images/img5.jpeg'
 import img6 from '../images/img6.jpeg'
-import img7 from '../images/img7.jpeg'
-import img8 from '../images/img8.jpeg'
-import img9 from '../images/img9.jpeg'
-import img10 from '../images/img10.jpeg'
-import img11 from '../images/img11.jpeg'
-import img12 from '../images/img12.jpeg'
+// import img7 from '../images/img7.jpeg'
+// import img8 from '../images/img8.jpeg'
+// import img9 from '../images/img9.jpeg'
+// import img10 from '../images/img10.jpeg'
+// import img11 from '../images/img11.jpeg'
+// import img12 from '../images/img12.jpeg'
 import './Galerie.css'
 
 const Galerie = () => {
@@ -36,12 +36,12 @@ const Galerie = () => {
           <img src={img4} alt="" />
           <img src={img5} alt="" />
           <img src={img6} alt="" />
-          <img src={img7} alt="" />
+          {/* <img src={img7} alt="" />
           <img src={img8} alt="" />
           <img src={img9} alt="" />
           <img src={img10} alt="" />
           <img src={img11} alt="" />
-          <img src={img12} alt="" />
+          <img src={img12} alt="" /> */}
         </div>
         
       </section>

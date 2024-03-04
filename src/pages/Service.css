@@ -15,10 +15,11 @@
 }
 
 .backgroundText {
-  color: whitesmoke;
+  color: white;
   position: absolute;
   left: 0;
   right: 0;
+  /* margin-top:30%; */
   text-align: center;
   bottom: 42%;
   font-size: 30px;
@@ -74,10 +75,10 @@
 }
 
 .serviceItem:hover {
-  color: #00a3c8 ;
+  color: #ffa500 ;
 }
 .serviceItemCantact:hover{
-  color: #00a3c8;
+  color: #ffa500;
 }
 
 .nosServices {
@@ -92,7 +93,7 @@
   line-height: 40px;
   text-transform: uppercase;
   position: relative;
-  border-bottom: 2px solid #00a3c8;
+  border-bottom: 2px solid #ffa500;
 }
 
 .underTitle {
@@ -112,7 +113,7 @@
   text-transform: uppercase;
   position: relative;
   line-height: 40px;
-  border-bottom: 2px solid #00a3c8;
+  border-bottom: 2px solid #ffa500;
 }
 
 .bodyDef {
@@ -224,7 +225,7 @@
     margin-top: 10%;
     margin-bottom: 4%;
     margin-left: 5%;
-    border-bottom: 2px solid #00a3c8;
+    border-bottom: 2px solid #ffa500;
   }
 
 }
