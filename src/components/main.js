@@ -31,7 +31,7 @@ const Main = () => {
 
           <div className='docinfoimg'>
             <img src={imgSection} alt="" text='' />
-            <p className='qui'>QUI EST Dr. LOURIDI?</p>
+            {/* <p className='qui'>QUI EXAMPLE EXAMPLE ?</p> */}
           </div>
         </section>
 

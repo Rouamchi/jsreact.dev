@@ -1,14 +1,14 @@
 import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import sexologie from '../images/sexologie.png'
+import domiciliation from '../images/domiciliation.png'
 import { NavLink } from 'react-router-dom'
 import backgroundGray from '../images/backgroundGray.png'
 import { useEffect, useState } from 'react'
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward'
 import './Service.css'
 
-const Sexologue = () => {
+const Domiciliation = () => {
   const [toTopButton, setToTopButton] = useState(false);
 
   useEffect(() => {
@@ -32,38 +32,38 @@ const Sexologue = () => {
       <Header />
       <div className='backgroundGray'>
         <img className='backgroundImage' backgroundImage src={backgroundGray} alt="" />
-        <p className='backgroundText'>Sexologie</p>
+        <p className='backgroundText'>La Domiciliation</p>
       </div>
       <section className='sectionImgService'>
         <div className='sectionImg'>
-          <img src={sexologie} alt="" text='' />
+          <img src={domiciliation} alt="" text='' />
         </div>
         <div className='sectionService'>
           <h5 className='nosServices'>Nos Services</h5>
           <ul>
             <li>
-              <NavLink className="serviceItem" to="/psychiatre">
-                {" "}Psychiatre{" "}
+              <NavLink className="serviceItem" to="/conseilDeGestion">
+                {" "}Conseil De Gestion{" "}
               </NavLink>
             </li>
             <li>
-              <NavLink className="serviceItem" to="/psychothérapeute">
-                {" "}Psychothérapeute{" "}
+              <NavLink className="serviceItem" to="/etudeDeFaisabilité">
+                {" "}Étude De Faisabilité{" "}
               </NavLink>
             </li>
             <li>
-              <NavLink className="serviceItem" to="/addictiologue">
-                {" "}Addictiologue{" "}
+              <NavLink className="serviceItem" to="/elaborationDuBusinessPlan">
+                {" "}Élaboration Du B.P{" "}
               </NavLink>
             </li>
             <li>
-              <NavLink className="serviceItem" to="/sexologue">
-                {" "}Sexologue{" "}
+              <NavLink className="serviceItem" to="/domiciliation">
+                {" "}La Domiciliation{" "}
               </NavLink>
             </li>
             <li>
-              <NavLink className="serviceItem" to="/gerontoPsychiatrie">
-                {" "}GerontoPsychiatrie{" "}
+              <NavLink className="serviceItem" to="/formations">
+                {" "}Formations{" "}
               </NavLink>
             </li>
             <li>
@@ -76,7 +76,7 @@ const Sexologue = () => {
       </section>
 
       <section>
-        <p className='titleDef'>Sexologue</p>
+        <p className='titleDef'>La Domiciliation</p>
         <p className='bodyDef'>
           La sexologie est la branche de la médecine qui concerne la sexualité humaine et ses troubles. Son objectif est d'améliorer la santé sexuelle par la prévention (l'information et le conseil), le diagnostic, le traitement et la réhabilitation des conditions qui concernent:
 
@@ -133,4 +133,4 @@ const Sexologue = () => {
   )
 }
 
-export default Sexologue
+export default Domiciliation

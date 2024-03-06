@@ -31,7 +31,7 @@ header{
 @keyframes ltr{
     0%{
         transform: translateX(-100px);
-        color: #ffa500;
+        color: orange;
     }
 
 50%{

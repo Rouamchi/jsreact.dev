@@ -41,7 +41,7 @@ input {
 
 .show-on-click {
   display: none;
-  border-top: 2px solid #ffa500;
+  border-top: 2px solid orange;
   position: absolute;
   top: 60px;
   right: 1%;
@@ -58,8 +58,19 @@ input {
   padding-bottom: 25%;
   font-size: 17px;
   text-align: center;
-  border-bottom: 1px solid #ffa500;
+  border-bottom: 1px solid orange;
 }
+
+/* .show-on-click2 label {
+  box-sizing: inherit;
+  width: 100%;
+  padding:8px 0;
+  padding-top: 13%;
+  padding-bottom: 25%;
+  font-size: 17px;
+  text-align: center;
+  border-bottom: 1px solid orange;
+} */
 
 .main-div label .fas{
   margin-right: 11%;
@@ -89,7 +100,7 @@ label:hover .fas
 }
 
 .main-div{
-  border-bottom: 1px solid #ffa500;
+  border-bottom: 1px solid orange;
 }
 
 /* ====================================

@@ -18,7 +18,8 @@ const header = () => {
             </NavLink>
           </li>
           <li className="main-list">
-            <NavLink className="main-link" to="/SalleDeFormation">{" "}Salle De Formation{" "}
+            <NavLink className="main-link" to="/SalleDeFormation">{" "}
+            Salle De Formation{" "}
             </NavLink>
           </li>
           <li className="main-list">
@@ -28,28 +29,28 @@ const header = () => {
             </NavLink>
             <ul className="sub-ul textsize">
               <li>
-                <NavLink className="textsize" to="/conseilDeGestion">
+                <NavLink className="textsize2" to="/conseilDeGestion">
                   {" "}Conseil De Gestion{" "}
                 </NavLink>
               </li>
               <li>
-                <NavLink className="textsize" to="/psychothérapeute">
-                  {" "}Psychothérapeute{" "}
+                <NavLink className="textsize2" to="/etudeDeFaisabilité">
+                  {" "}Étude De Faisabilité{" "}
                 </NavLink>
               </li>
               <li>
-                <NavLink className="textsize" to="/addictiologue">
-                  {" "}Addictiologue{" "}
+                <NavLink className="textsize2" to="/elaborationDuBusinessPlan">
+                  {" "}Élaboration Du B.P{" "}
                 </NavLink>
               </li>
               <li>
-                <NavLink className="textsize" to="/sexologue">
-                  {" "}Sexologue{" "}
+                <NavLink className="textsize" to="/domiciliation">
+                  {" "}La Domiciliation{" "}
                 </NavLink>
               </li>
               <li>
-                <NavLink className="textsize" to="/gerontoPsychiatrie">
-                  {" "}Geronto-Psychiatrie{" "}
+                <NavLink className="textsize" to="/formations">
+                  {" "}Formations{" "}
                 </NavLink>
               </li>
             </ul>
@@ -59,7 +60,7 @@ const header = () => {
               {" "}
               Contact{" "}
             </NavLink>
-            <ul className="sub-ul sub-of-js textsize">
+            <ul className="sub-ul sub-of-js textsize3">
               <li>
                 <FaWhatsapp className='iconsHeader' /> <a href="."><ReactWhatsapp className='whatsapp' number="+212602790203" message="" style={{backgroundColor: '#383838'}}>Whatsapp</ReactWhatsapp></a>
               </li>
@@ -98,7 +99,8 @@ const header = () => {
           <div className="main-div">
             <label AccueilFor="SalleDeFormation">
               {/* SalleDeFormation <i className="fas fa-plus" />{" "} */}
-              <NavLink className="fas" to="/salleDeFormation">{" "}Salle De Formation{" "}
+              <NavLink className="fas" to="/salleDeFormation" style={{marginRight: '-15%', marginTop: '-6%'}}>{" "}
+              Salle De Formation{" "}
               </NavLink>
             </label>
             <input id="SalleDeFormation" type="checkbox" />
@@ -119,23 +121,23 @@ const header = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink className="textsize" to="/psychothérapeute">
-                  {" "}Psychothérapeute{" "}
+                <NavLink className="textsize" to="/etudeDeFaisabilité">
+                  {" "}Étude De Faisabilité{" "}
                 </NavLink>
               </li>
               <li>
-                <NavLink className="textsize" to="/addictiologue">
-                  {" "}Addictiologue{" "}
+                <NavLink className="textsize" to="/elaborationDuBusinessPlan">
+                  {" "}Élaboration Du B.P{" "}
                 </NavLink>
               </li>
               <li>
-                <NavLink className="textsize" to="/sexologue">
-                  {" "}Sexologue{" "}
+                <NavLink className="textsize" to="/domiciliation">
+                  {" "}La Domiciliation{" "}
                 </NavLink>
               </li>
               <li>
-                <NavLink className="textsize" to="/gerontoPsychiatrie">
-                  {" "}Geronto-Psychiatrie{" "}
+                <NavLink className="textsize" to="/formations">
+                  {" "}Formations{" "}
                 </NavLink>
               </li>
             </ul>

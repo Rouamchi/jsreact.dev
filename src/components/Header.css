@@ -26,6 +26,15 @@
   }
 }
 .textsize{
+  text-align: center;
+  font-size: 14px;
+}
+
+.textsize2{
+  text-align: center;
+  font-size: 13px;
+}
+.textsize3{
   text-align: left;
   font-size: 14px;
 }

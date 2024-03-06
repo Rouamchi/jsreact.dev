@@ -71,7 +71,7 @@ const Contact = () => {
             marginLeft: '30px'
           }}>
             Contactez-Nous
-            <p style={{ border: '2px solid #ffa500', marginTop: '10px', width: '230px' }}></p>
+            <p style={{ border: '2px solid orange', marginTop: '10px', width: '230px' }}></p>
           </div>
           <div className='textfieldParent'>
             <div className="textfield"><TextField style={{ width: '500px' }} id="name" label="Non et Prenom" /></div>
@@ -87,7 +87,7 @@ const Contact = () => {
             <div className="textfield"><TextField style={{ width: '98%' }} id="message" label="Message" /></div>
           </div>
           <Stack direction="row" spacing={2}>
-            <Button style={{ marginTop: '20px', marginLeft: '30px', backgroundColor: '#062a78' }}
+            <Button style={{ marginTop: '20px', marginLeft: '30px', backgroundColor: '#343434' }}
               onClick={(e) => click(e)}
               variant="contained" endIcon={<SendIcon />}>
               Envoyer

@@ -4,10 +4,10 @@ import Home from './pages/Home';
 import Accueil from './pages/Accueil';
 import Spécialités from './pages/Spécialités';
 import ConseilDeGestion from './pages/ConseilDeGestion.js';
-import Psychothérapeute from './pages/Psychothérapeute';
-import Addictiologue from './pages/Addictiologue';
-import Sexologue from './pages/Sexologue';
-import GerontoPsychiatrie from './pages/GerontoPsychiatrie';
+import EtudeDeFaisabilité from './pages/EtudeDeFaisabilité.js';
+import ElaborationDuBusinessPlan from './pages/ElaborationDuBusinessPlan.js';
+import Domiciliation from './pages/Domiciliation.js';
+import Formations from './pages/Formations';
 import Contact from './pages/Contact';
 import SalleDeFormation from './pages/SalleDeFormation';
 
@@ -22,10 +22,10 @@ function App() {
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/salleDeFormation' element={<SalleDeFormation/>}/>
         <Route path='/conseilDeGestion' element={<ConseilDeGestion/>}/>
-        <Route path='/psychothérapeute' element={<Psychothérapeute/>}/>
-        <Route path='/addictiologue' element={<Addictiologue/>}/>
-        <Route path='/sexologue' element={<Sexologue/>}/>
-        <Route path='/gerontoPsychiatrie' element={<GerontoPsychiatrie/>}/>
+        <Route path='/etudeDeFaisabilité' element={<EtudeDeFaisabilité/>}/>
+        <Route path='/elaborationDuBusinessPlan' element={<ElaborationDuBusinessPlan/>}/>
+        <Route path='/domiciliation' element={<Domiciliation/>}/>
+        <Route path='/formations' element={<Formations/>}/>
 
       </Routes>
     </div>

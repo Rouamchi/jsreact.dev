@@ -18,16 +18,19 @@ const Galerie = () => {
 
   return (
     <>
-      <h2 className='que' style={{ marginTop: '100px' }}>Que soigne un Psychiatre ?</h2>
+      <h2 className='que' style={{ marginTop: '100px' }}>
+        Salle de formation avec les équipements adéquates à événement d'entreprise</h2>
       <section className='cabinetDescription'>
         <p>
-          Le Psychiatre est un avant tout un médecin. Il soigne donc les maladies psychiques. <br/> Son rôle est la prévention et le soulagement du patient. Le psychiatre s'assure que vous n'êtes pas un risque pour vous ou pour les autres. Pour cela il a recours aux médicaments lorsque cela est nécessaire.
+          Le Psychiatre est un avant tout un médecin. Il soigne donc les maladies psychiques. <br /> Son rôle est la prévention et le soulagement du patient. Le psychiatre s'assure que vous n'êtes pas un risque pour vous ou pour les autres. Pour cela il a recours aux médicaments lorsque cela est nécessaire.
           Il est le seul praticien à pouvoir vous établir une ordonnance. Le psychiatre soulage mais ne soigne pas. La prise de médicaments (antidépresseur, anxiolytique...) peut être nécessaire dans certains cas et c'est sans culpabilité qu'il faut parfois se résoudre à en prendre. Cela permet de stabiliser son état psychique et d'être plus apte à entamer un psychothérapie en parallèle.
-          <br/><br/>
+          <br /><br />
           Le cabinet du Dr Abderrahim LOURIDI est un espace accueillant, confortable, chaleureux et amical pour permettre l'interaction un à un, dans un contexte de soutien et de confidentialité optimaux. Nous accueillons les adolescents, adultes et les couples en nous engageant à offrir à chacun les soins et le soutien qui conviennent le mieux à ses besoins.
+          <br></br>
+          Profitez d’une salle adaptée à vos besoins et choisie par vos soins, à votre goût pour organiser vos réunions en toute tranquillité. Quelques jours avant votre événement.
         </p>
       </section>
-      <h2>Cabinet Dr Louridi:</h2>
+      <h2>DAF - Salle De Formation</h2>
       <section className='galerieParent'>
         <div className='photos'>
           <img src={img1} alt="" />
@@ -43,7 +46,7 @@ const Galerie = () => {
           <img src={img11} alt="" />
           <img src={img12} alt="" /> */}
         </div>
-        
+
       </section>
     </>
   )

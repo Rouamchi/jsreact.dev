@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import addictologie from '../images/addictologie.png'
+import elaborationDuBusinessPlan from '../images/elaborationDuBusinessPlan.png'
 import backgroundGray from '../images/backgroundGray.png'
 import { NavLink } from 'react-router-dom'
 import { useEffect, useState } from 'react'
@@ -9,7 +9,7 @@ import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward'
 import './Service.css'
 
 
-const Addictiologue = () => {
+const ElaborationDuBusinessPlan = () => {
   const [toTopButton, setToTopButton] = useState(false);
 
   useEffect(() => {
@@ -33,40 +33,40 @@ const Addictiologue = () => {
       <Header />
       <div className='backgroundGray'>
         <img className='backgroundImage' src={backgroundGray} alt="" />
-        <p className='backgroundText'>Addictiologie</p>
+        <p className='backgroundText'>Élaboration Du Business Plan</p>
       </div>
       {/* <div className='nosServices'>Nos Services</div>
       <p className='underTitle'></p> */}
       <section className='sectionImgService'>
         <div className='sectionImg'>
-          <img src={addictologie} alt="" text='' />
+          <img src={elaborationDuBusinessPlan} alt="" text='' />
         </div>
         <div className='sectionService'>
           <h5 className='nosServices'>Nos Services</h5>
           <ul>
             <li>
-              <NavLink className="serviceItem" to="/psychiatre">
-                {" "}Psychiatre{" "}
+              <NavLink className="serviceItem" to="/conseilDeGestion">
+                {" "}Conseil De Gestion{" "}
               </NavLink>
             </li>
             <li>
-              <NavLink className="serviceItem" to="/psychothérapeute">
-                {" "}Psychothérapeute{" "}
+              <NavLink className="serviceItem" to="/etudeDeFaisabilité">
+                {" "}Étude De Faisabilité{" "}
               </NavLink>
             </li>
             <li>
-              <NavLink className="serviceItem" to="/addictiologue">
-                {" "}Addictiologue{" "}
+              <NavLink className="serviceItem" to="/elaborationDuBusinessPlan">
+                {" "}Élaboration Du B.P{" "}
               </NavLink>
             </li>
             <li>
-              <NavLink className="serviceItem" to="/sexologue">
-                {" "}Sexologue{" "}
+              <NavLink className="serviceItem" to="/domiciliation">
+                {" "}La Domiciliation{" "}
               </NavLink>
             </li>
             <li>
-              <NavLink className="serviceItem" to="/gerontoPsychiatrie">
-                {" "}GerontoPsychiatrie{" "}
+              <NavLink className="serviceItem" to="/formations">
+                {" "}Formations{" "}
               </NavLink>
             </li>
             <li>
@@ -79,7 +79,7 @@ const Addictiologue = () => {
       </section>
 
       <section>
-        <p className='titleDef'>Addictologie</p>
+        <p className='titleDef'>Élaboration Du Business Plan</p>
         <p className='bodyDef'>
           L'addictologie est la spécialité de la médecine consacrée à l'étude et la prise en charge des addictions. Celles-ci désignent un asservissement à certaines substances ou activités, associé à une dépendance du corps et de l'esprit. Cette spécialité, récente, regroupe dans un cadre commun des dépendances à des produits (alcool, drogues, tabac, alimentation),et des dépendances « sans produit » : jeux d'argent, de hasard, pratiques sexuelles, jeux vidéos, achat compulsif, cyberaddiction…
           <br /><br />
@@ -124,4 +124,4 @@ const Addictiologue = () => {
   )
 }
 
-export default Addictiologue
+export default ElaborationDuBusinessPlan

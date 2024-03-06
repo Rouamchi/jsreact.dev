@@ -5,10 +5,10 @@ import Home from './pages/Home';
 import Accueil from './pages/Accueil';
 import Spécialités from './pages/Spécialités';
 import ConseilDeGestion from './pages/ConseilDeGestion.js';
-import Psychothérapeute from './pages/Psychothérapeute';
-import Addictiologue from './pages/Addictiologue';
-import Sexologue from './pages/Sexologue';
-import GerontoPsychiatrie from './pages/GerontoPsychiatrie';
+import EtudeDeFaisabilité from './pages/EtudeDeFaisabilité.js';
+import ElaborationDuBusinessPlan from './pages/ElaborationDuBusinessPlan.js';
+import Domiciliation from './pages/Domiciliation.js';
+import Formations from './pages/Formations';
 import Contact from './pages/Contact';
 import SalleDeFormation from './pages/SalleDeFormation';
 
@@ -46,20 +46,20 @@ const router = createBrowserRouter([
     element: <ConseilDeGestion/>,
   },
   {
-    path: "/psychothérapeute",
-    element: <Psychothérapeute/>,
+    path: "/etudeDeFaisabilité",
+    element: <EtudeDeFaisabilité/>,
   },
   {
-    path: "/addictiologue",
-    element: <Addictiologue/>,
+    path: "/elaborationDuBusinessPlan",
+    element: <ElaborationDuBusinessPlan/>,
   },
   {
-    path: "/sexologue",
-    element: <Sexologue/>,
+    path: "/domiciliation",
+    element: <Domiciliation/>,
   },
   {
-    path: "/gerontoPsychiatrie",
-    element: <GerontoPsychiatrie/>,
+    path: "/formations",
+    element: <Formations/>,
   },
 ])
 

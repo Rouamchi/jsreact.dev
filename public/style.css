@@ -47,8 +47,8 @@
 }
 
 .main-link:hover {
-  color: #ffa500;
-  box-shadow: 0 0 5px #ffa500;
+  color: orange;
+  box-shadow: 0 0 5px orange;
   border-radius: 5px;
 }
 
@@ -60,9 +60,9 @@
   display: none;
 
   position: absolute;
-  top: 59px;
-  left: 15px;
-  border-top: 3px solid #ffa500;
+  top: 63px;
+  left: 1px;
+  border-top: 3px solid orange;
 
   background-color: #383838;
 
@@ -73,7 +73,7 @@
 }
 
 .sub-of-js {
-  left: 55px;
+  left: 5px;
 }
 
 .sub-ul li {
@@ -83,7 +83,7 @@
 }
 
 .sub-ul li a:hover {
-  color: #ffa500;
+  color: orange;
   font-weight: bold;
 }
 
@@ -100,7 +100,7 @@
   top: 80px;
   left: 153px;
 
-  border-top: 1px solid #ffa500;
+  border-top: 1px solid orange;
 
   background-color: #1b1b1b;
 
@@ -134,7 +134,7 @@
 
 
 .main-link.active:hover {
-  color: #ffa500;
-  box-shadow: 0 0 5px #ffa500;
+  color: orange;
+  box-shadow: 0 0 5px orange;
   border-radius: 5px;
 }

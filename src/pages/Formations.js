@@ -1,14 +1,14 @@
 import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import gérontoPsychiatrie from '../images/gérontoPsychiatrie.png'
+import formations from '../images/formations.png'
 import backgroundGray from '../images/backgroundGray.png'
 import { NavLink } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward'
 import './Service.css'
 
-const GerontoPsychiatrie = () => {
+const Formations = () => {
   const [toTopButton, setToTopButton] = useState(false);
 
   useEffect(() => {
@@ -32,38 +32,38 @@ const GerontoPsychiatrie = () => {
       <Header />
       <div className='backgroundGray'>
         <img className='backgroundImage' src={backgroundGray} alt="" />
-        <p className='backgroundText'>Geronto-Psychiatrie</p>
+        <p className='backgroundText'>Formations</p>
       </div>
       <section className='sectionImgService'>
         <div className='sectionImg'>
-          <img src={gérontoPsychiatrie} alt="" text='' />
+          <img src={formations} alt="" text='' />
         </div>
         <div className='sectionService'>
           <h5 className='nosServices'>Nos Services</h5>
           <ul>
             <li>
-              <NavLink className="serviceItem" to="/psychiatre">
-                {" "}Psychiatre{" "}
+              <NavLink className="serviceItem" to="/conseilDeGestion">
+                {" "}Conseil De Gestion{" "}
               </NavLink>
             </li>
             <li>
-              <NavLink className="serviceItem" to="/psychothérapeute">
-                {" "}Psychothérapeute{" "}
+              <NavLink className="serviceItem" to="/etudeDeFaisabilité">
+                {" "}Étude De Faisabilité{" "}
               </NavLink>
             </li>
             <li>
-              <NavLink className="serviceItem" to="/addictiologue">
-                {" "}Addictiologue{" "}
+              <NavLink className="serviceItem" to="/elaborationDuBusinessPlan">
+                {" "}Élaboration Du B.P{" "}
               </NavLink>
             </li>
             <li>
-              <NavLink className="serviceItem" to="/sexologue">
-                {" "}Sexologue{" "}
+              <NavLink className="serviceItem" to="/domiciliation">
+                {" "}La Domiciliation{" "}
               </NavLink>
             </li>
             <li>
-              <NavLink className="serviceItem" to="/gerontoPsychiatrie">
-                {" "}GerontoPsychiatrie{" "}
+              <NavLink className="serviceItem" to="/formations">
+                {" "}Formations{" "}
               </NavLink>
             </li>
             <li>
@@ -76,7 +76,7 @@ const GerontoPsychiatrie = () => {
       </section>
 
       <section>
-        <p className='titleDef'>Géronto-psychiatrie</p>
+        <p className='titleDef'>Formations</p>
         <p className='bodyDef'>
           La psychiatrie du sujet âgé permis de mieux appréhender des pathologies psychiatriques avec leurs spécificités sémiologiques, diagnostiques et thérapeutiques. Chez le sujet âgé, une maladie psychiatrique peut se manifester sous des formes atypiques et peut être difficile à différencier du vieillissement ou d’une maladie somatique. Les principales pathologies rencontrées sont :
         
@@ -117,4 +117,4 @@ const GerontoPsychiatrie = () => {
   )
 }
 
-export default GerontoPsychiatrie
+export default Formations

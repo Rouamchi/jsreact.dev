@@ -47,23 +47,23 @@ const ConseilDeGestion = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink className="serviceItem" to="/psychothérapeute">
-                {" "}Psychothérapeute{" "}
+              <NavLink className="serviceItem" to="/etudeDeFaisabilité">
+                {" "}Étude De Faisabilité{" "}
               </NavLink>
             </li>
             <li>
-              <NavLink className="serviceItem" to="/addictiologue">
-                {" "}Addictiologue{" "}
+              <NavLink className="serviceItem" to="/elaborationDuBusinessPlan">
+                {" "}Élaboration Du B.P{" "}
               </NavLink>
             </li>
             <li>
-              <NavLink className="serviceItem" to="/sexologue">
-                {" "}Sexologue{" "}
+              <NavLink className="serviceItem" to="/domiciliation">
+                {" "}La Domiciliation{" "}
               </NavLink>
             </li>
             <li>
-              <NavLink className="serviceItem" to="/gerontoPsychiatrie">
-                {" "}Geronto-Psychiatrie{" "}
+              <NavLink className="serviceItem" to="/formations">
+                {" "}Formations{" "}
               </NavLink>
             </li>
             <li>

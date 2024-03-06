@@ -4,10 +4,10 @@ import Footer from '../components/Footer'
 import { NavLink } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import conseil from '../images/conseil.png'
-import psychothérapeute from '../images/psychothérapeute.png'
-import addictologie from '../images/addictologie.png'
-import sexologie from '../images/sexologie.png'
-import gérontoPsychiatrie from '../images/gérontoPsychiatrie.png'
+import étudeDeFaisabilité from '../images/étudeDeFaisabilité.png'
+import elaborationDuBusinessPlan from '../images/elaborationDuBusinessPlan.png'
+import domiciliation from '../images/domiciliation.png'
+import formations from '../images/formations.png'
 import backgroundGray from '../images/backgroundGray.png'
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward'
 import './Service.css'
@@ -53,23 +53,23 @@ const Spécialités = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink className="serviceItem" to="/psychothérapeute">
-                  {" "}Psychothérapeute{" "}
+                <NavLink className="serviceItem" to="/etudeDeFaisabilité">
+                  {" "}Étude De Faisabilité{" "}
                 </NavLink>
               </li>
               <li>
-                <NavLink className="serviceItem" to="/addictiologue">
-                  {" "}Addictiologue{" "}
+                <NavLink className="serviceItem" to="/elaborationDuBusinessPlan">
+                  {" "}Élaboration Du B.P{" "}
                 </NavLink>
               </li>
               <li>
-                <NavLink className="serviceItem" to="/sexologue">
-                  {" "}Sexologue{" "}
+                <NavLink className="serviceItem" to="/domiciliation">
+                  {" "}La Domiciliation{" "}
                 </NavLink>
               </li>
               <li>
-                <NavLink className="serviceItem" to="/gerontoPsychiatrie">
-                  {" "}Geronto-Psychiatrie{" "}
+                <NavLink className="serviceItem" to="/formations">
+                  {" "}Formations{" "}
                 </NavLink>
               </li>
               <li>
@@ -130,11 +130,11 @@ const Spécialités = () => {
 
         <div className='backgroundGray'>
           <img className='backgroundImage' src={backgroundGray} alt="" />
-          <p className='backgroundText'>Psychothérapeute</p>
+          <p className='backgroundText'>Étude De Faisabilité D’un Projet</p>
         </div>
         <section className='sectionImgService'>
           <div className='sectionImg'>
-            <img src={psychothérapeute} alt="" text='' />
+            <img src={étudeDeFaisabilité} alt="" text='' />
           </div>
           <div className='sectionService'>
             <h5 className='nosServices'>Nos Services</h5>
@@ -145,23 +145,23 @@ const Spécialités = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink className="serviceItem" to="/psychothérapeute">
-                  {" "}Psychothérapeute{" "}
+                <NavLink className="serviceItem" to="/etudeDeFaisabilité">
+                  {" "}Étude De Faisabilité{" "}
                 </NavLink>
               </li>
               <li>
-                <NavLink className="serviceItem" to="/addictiologue">
-                  {" "}Addictiologue{" "}
+                <NavLink className="serviceItem" to="/elaborationDuBusinessPlan">
+                  {" "}Élaboration Du B.P{" "}
                 </NavLink>
               </li>
               <li>
-                <NavLink className="serviceItem" to="/sexologue">
-                  {" "}Sexologue{" "}
+                <NavLink className="serviceItem" to="/domiciliation">
+                  {" "}La Domiciliation{" "}
                 </NavLink>
               </li>
               <li>
-                <NavLink className="serviceItem" to="/gerontoPsychiatrie">
-                  {" "}GerontoPsychiatrie{" "}
+                <NavLink className="serviceItem" to="/formations">
+                  {" "}Formations{" "}
                 </NavLink>
               </li>
               <li>
@@ -174,7 +174,7 @@ const Spécialités = () => {
         </section>
 
         <section>
-          <p className='titleDef'>Psychothérapeute</p>
+          <p className='titleDef'>Étude De Faisabilité D’un Projet</p>
           <p className='bodyDef'>
             la psychothérapie est « un traitement psychologique pour un trouble mental, pour des perturbations comportementales ou pour tout autre problème entraînant une souffrance ou une détresse psychologique qui a pour but de favoriser, chez le patient, des changements significatifs dans son fonctionnement cognitif, émotionnel ou comportemental, dans son système interpersonnel, dans sa personnalité ou dans son état de santé.
             <br /><br />
@@ -201,13 +201,13 @@ const Spécialités = () => {
 
         <div className='backgroundGray'>
           <img className='backgroundImage' src={backgroundGray} alt="" />
-          <p className='backgroundText'>Addictiologie</p>
+          <p className='backgroundText'>Élaboration Du Business Plan</p>
         </div>
         {/* <div className='nosServices'>Nos Services</div>
       <p className='underTitle'></p> */}
         <section className='sectionImgService'>
           <div className='sectionImg'>
-            <img src={addictologie} alt="" text='' />
+            <img src={elaborationDuBusinessPlan} alt="" text='' />
           </div>
           <div className='sectionService'>
             <h5 className='nosServices'>Nos Services</h5>
@@ -218,23 +218,23 @@ const Spécialités = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink className="serviceItem" to="/psychothérapeute">
-                  {" "}Psychothérapeute{" "}
+                <NavLink className="serviceItem" to="/etudeDeFaisabilité">
+                  {" "}Étude De Faisabilité{" "}
                 </NavLink>
               </li>
               <li>
-                <NavLink className="serviceItem" to="/addictiologue">
-                  {" "}Addictiologue{" "}
+                <NavLink className="serviceItem" to="/elaborationDuBusinessPlan">
+                  {" "}Élaboration Du B.P{" "}
                 </NavLink>
               </li>
               <li>
-                <NavLink className="serviceItem" to="/sexologue">
-                  {" "}Sexologue{" "}
+                <NavLink className="serviceItem" to="/domiciliation">
+                  {" "}La Domiciliation{" "}
                 </NavLink>
               </li>
               <li>
-                <NavLink className="serviceItem" to="/gerontoPsychiatrie">
-                  {" "}GerontoPsychiatrie{" "}
+                <NavLink className="serviceItem" to="/formations">
+                  {" "}Formations{" "}
                 </NavLink>
               </li>
               <li>
@@ -247,7 +247,7 @@ const Spécialités = () => {
         </section>
 
         <section>
-          <p className='titleDef'>Addictologie</p>
+          <p className='titleDef'>Élaboration Du Business Plan</p>
           <p className='bodyDef'>
             L'addictologie est la spécialité de la médecine consacrée à l'étude et la prise en charge des addictions. Celles-ci désignent un asservissement à certaines substances ou activités, associé à une dépendance du corps et de l'esprit. Cette spécialité, récente, regroupe dans un cadre commun des dépendances à des produits (alcool, drogues, tabac, alimentation),et des dépendances « sans produit » : jeux d'argent, de hasard, pratiques sexuelles, jeux vidéos, achat compulsif, cyberaddiction…
             <br /><br />
@@ -272,11 +272,11 @@ const Spécialités = () => {
         {/* -------------------------------------------------------- */}
         <div className='backgroundGray'>
           <img className='backgroundImage' backgroundImage src={backgroundGray} alt="" />
-          <p className='backgroundText'>Sexologie</p>
+          <p className='backgroundText'>La Domiciliation</p>
         </div>
         <section className='sectionImgService'>
           <div className='sectionImg'>
-            <img src={sexologie} alt="" text='' />
+            <img src={domiciliation} alt="" text='' />
           </div>
           <div className='sectionService'>
             <h5 className='nosServices'>Nos Services</h5>
@@ -287,23 +287,23 @@ const Spécialités = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink className="serviceItem" to="/psychothérapeute">
-                  {" "}Psychothérapeute{" "}
+                <NavLink className="serviceItem" to="/etudeDeFaisabilité">
+                  {" "}Étude De Faisabilité{" "}
                 </NavLink>
               </li>
               <li>
-                <NavLink className="serviceItem" to="/addictiologue">
-                  {" "}Addictiologue{" "}
+                <NavLink className="serviceItem" to="/elaborationDuBusinessPlan">
+                  {" "}Élaboration Du B.P{" "}
                 </NavLink>
               </li>
               <li>
-                <NavLink className="serviceItem" to="/sexologue">
-                  {" "}Sexologue{" "}
+                <NavLink className="serviceItem" to="/domiciliation">
+                  {" "}La Domiciliation{" "}
                 </NavLink>
               </li>
               <li>
-                <NavLink className="serviceItem" to="/gerontoPsychiatrie">
-                  {" "}GerontoPsychiatrie{" "}
+                <NavLink className="serviceItem" to="/formations">
+                  {" "}Formations{" "}
                 </NavLink>
               </li>
               <li>
@@ -316,7 +316,7 @@ const Spécialités = () => {
         </section>
 
         <section>
-          <p className='titleDef'>Sexologue</p>
+          <p className='titleDef'>La Domiciliation</p>
           <p className='bodyDef'>
             La sexologie est la branche de la médecine qui concerne la sexualité humaine et ses troubles. Son objectif est d'améliorer la santé sexuelle par la prévention (l'information et le conseil), le diagnostic, le traitement et la réhabilitation des conditions qui concernent:
 
@@ -354,11 +354,11 @@ const Spécialités = () => {
         {/* ----------------------------------------------------- */}
         <div className='backgroundGray'>
           <img className='backgroundImage' src={backgroundGray} alt="" />
-          <p className='backgroundText'>Geronto-Psychiatrie</p>
+          <p className='backgroundText'>Formations</p>
         </div>
         <section className='sectionImgService'>
           <div className='sectionImg'>
-            <img src={gérontoPsychiatrie} alt="" text='' />
+            <img src={formations} alt="" text='' />
           </div>
           <div className='sectionService'>
             <h5 className='nosServices'>Nos Services</h5>
@@ -369,23 +369,23 @@ const Spécialités = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink className="serviceItem" to="/psychothérapeute">
-                  {" "}Psychothérapeute{" "}
+                <NavLink className="serviceItem" to="/etudeDeFaisabilité">
+                  {" "}Étude De Faisabilité{" "}
                 </NavLink>
               </li>
               <li>
-                <NavLink className="serviceItem" to="/addictiologue">
-                  {" "}Addictiologue{" "}
+                <NavLink className="serviceItem" to="/elaborationDuBusinessPlan">
+                  {" "}Élaboration Du B.P{" "}
                 </NavLink>
               </li>
               <li>
-                <NavLink className="serviceItem" to="/sexologue">
-                  {" "}Sexologue{" "}
+                <NavLink className="serviceItem" to="/domiciliation">
+                  {" "}La Domiciliation{" "}
                 </NavLink>
               </li>
               <li>
-                <NavLink className="serviceItem" to="/gerontoPsychiatrie">
-                  {" "}GerontoPsychiatrie{" "}
+                <NavLink className="serviceItem" to="/formations">
+                  {" "}Formations{" "}
                 </NavLink>
               </li>
               <li>
@@ -458,23 +458,23 @@ const Spécialités = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink className="serviceItem" to="/psychothérapeute">
-                {" "}Psychothérapeute{" "}
+              <NavLink className="serviceItem" to="/etudeDeFaisabilité">
+                {" "}Étude De Faisabilité{" "}
               </NavLink>
             </li>
             <li>
-              <NavLink className="serviceItem" to="/addictiologue">
-                {" "}Addictiologue{" "}
+              <NavLink className="serviceItem" to="/elaborationDuBusinessPlan">
+                {" "}Élaboration Du B.P{" "}
               </NavLink>
             </li>
             <li>
-              <NavLink className="serviceItem" to="/sexologue">
-                {" "}Sexologue{" "}
+              <NavLink className="serviceItem" to="/domiciliation">
+                {" "}La Domiciliation{" "}
               </NavLink>
             </li>
             <li>
-              <NavLink className="serviceItem" to="/gerontoPsychiatrie">
-                {" "}Geronto-Psychiatrie{" "}
+              <NavLink className="serviceItem" to="/formations">
+                {" "}Formations{" "}
               </NavLink>
             </li>
             <li>
@@ -534,17 +534,17 @@ const Spécialités = () => {
 
         <div className='backgroundGray'>
           <img className='backgroundImage' src={backgroundGray} alt="" />
-          <p className='backgroundText'>Psychothérapeute</p>
+          <p className='backgroundText'>Étude De Faisabilité D’un Projet</p>
         </div>
         <section className='sectionImgService'>
           <div className='sectionImg'>
-            <img src={psychothérapeute} alt="" text='' />
+            <img src={étudeDeFaisabilité} alt="" text='' />
           </div>
         </section>
 
         <section>
           
-          <p className='titleDef'>Psychothérapeute</p>
+          <p className='titleDef'>Étude De Faisabilité D’un Projet</p>
           <p className='bodyDef'>
             la psychothérapie est « un traitement psychologique pour un trouble mental, pour des perturbations comportementales ou pour tout autre problème entraînant une souffrance ou une détresse psychologique qui a pour but de favoriser, chez le patient, des changements significatifs dans son fonctionnement cognitif, émotionnel ou comportemental, dans son système interpersonnel, dans sa personnalité ou dans son état de santé.
             <br /><br />
@@ -571,16 +571,16 @@ const Spécialités = () => {
 
         <div className='backgroundGray'>
           <img className='backgroundImage' src={backgroundGray} alt="" />
-          <p className='backgroundText'>Addictiologie</p>
+          <p className='backgroundText'>Élaboration Du Business Plan</p>
         </div>
         <section className='sectionImgService'>
           <div className='sectionImg'>
-            <img src={addictologie} alt="" text='' />
+            <img src={elaborationDuBusinessPlan} alt="" text='' />
           </div>
         </section>
 
         <section>
-          <p className='titleDef'>Addictologie</p>
+          <p className='titleDef'>Élaboration Du Business Plan</p>
           <p className='bodyDef'>
             L'addictologie est la spécialité de la médecine consacrée à l'étude et la prise en charge des addictions. Celles-ci désignent un asservissement à certaines substances ou activités, associé à une dépendance du corps et de l'esprit. Cette spécialité, récente, regroupe dans un cadre commun des dépendances à des produits (alcool, drogues, tabac, alimentation),et des dépendances « sans produit » : jeux d'argent, de hasard, pratiques sexuelles, jeux vidéos, achat compulsif, cyberaddiction…
             <br /><br />
@@ -605,16 +605,16 @@ const Spécialités = () => {
         {/* -------------------------------------------------------- */}
         <div className='backgroundGray'>
           <img className='backgroundImage' backgroundImage src={backgroundGray} alt="" />
-          <p className='backgroundText'>Sexologie</p>
+          <p className='backgroundText'>La Domiciliation</p>
         </div>
         <section className='sectionImgService'>
           <div className='sectionImg'>
-            <img src={sexologie} alt="" text='' />
+            <img src={domiciliation} alt="" text='' />
           </div>
         </section>
 
         <section>
-          <p className='titleDef'>Sexologue</p>
+          <p className='titleDef'>La Domiciliation</p>
           <p className='bodyDef'>
             La sexologie est la branche de la médecine qui concerne la sexualité humaine et ses troubles. Son objectif est d'améliorer la santé sexuelle par la prévention (l'information et le conseil), le diagnostic, le traitement et la réhabilitation des conditions qui concernent:
 
@@ -652,11 +652,11 @@ const Spécialités = () => {
         {/* ----------------------------------------------------- */}
         <div className='backgroundGray'>
           <img className='backgroundImage' src={backgroundGray} alt="" />
-          <p className='backgroundText'>Geronto-Psychiatrie</p>
+          <p className='backgroundText'>Formations</p>
         </div>
         <section className='sectionImgService'>
           <div className='sectionImg'>
-            <img src={gérontoPsychiatrie} alt="" text='' />
+            <img src={formations} alt="" text='' />
           </div>
         </section>
 
