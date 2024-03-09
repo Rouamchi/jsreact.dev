@@ -12,12 +12,14 @@ footer {
   margin-left: 5%;
   text-align: center;
   line-height: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .icons1 {
   width: 20%;
   margin-left: 7%;
   line-height: 30px;
+
 }
 
 .icons1 div a:hover {
@@ -65,6 +67,7 @@ footer {
 
   *{
     margin-right: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
   footer {
@@ -86,6 +89,7 @@ footer {
     font-weight: bold;
     margin-left: 4%;
     font-size: 13px;
+
   }
   .iconsOneTwo{
     display: block;

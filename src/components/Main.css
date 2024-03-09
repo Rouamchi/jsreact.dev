@@ -4,16 +4,42 @@ main {
   flex-wrap: wrap;
 }
 
-div img {
+section .imageSection {
+  /* border: 2px solid red; */
   width: 100%;
-  height: 450px;
+  height: 550px;
+  background-repeat:no-repeat;
+  background-position:center;
+  animation: change 30s infinite ease-in-out;
+}
+
+@keyframes change{
+  0%{
+      background-image:url(../images/DAFCover.png);
+  }
+  
+  25%{
+    background-image:url(../images/DAFCover1.png);
+  }
+
+  50%{
+    background-image:url(../images/DAFCover2.png);
+  }
+
+  75%{
+    background-image:url(../images/DAFCover3.png);
+  }
+
+  100%{
+    background-image:url(../images/DAFCover4.png);
+  }
 }
 
 main .docname div {
   width: 100%;
   /* background-color: #383838; */
   padding: 10px;
-  padding-top: 20px;
+  padding-top: 10px;
   position: relative;
   margin-top: 3%;
   margin-left: auto;
@@ -24,6 +50,7 @@ main .docname div {
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
   /* box-shadow: 10px 10px 20px black; */
 }
@@ -83,13 +110,13 @@ main .doccabinet {
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   /* box-shadow: 10px 10px 20px black; */
 }
 
 main .docmap {
   /* border: 2px solid blue; */
   height: 90px;
-  /* background-color: #383838; */
   padding: 10px;
   padding-top: 20px;
   position: relative;
@@ -104,6 +131,7 @@ main .docmap {
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   /* box-shadow: 10px 10px 20px black; */
 }
 
@@ -123,6 +151,10 @@ main .docmap {
     /* box-shadow: 10px 10px 20px white; */
     margin-right: 2%;
   }
+  .docnameSubTitle{
+    margin-top:3%;
+    font-size: 20px;
+  }
 
   main .doccabinet {
     font-size: 25px;
@@ -134,9 +166,33 @@ main .docmap {
     /* box-shadow: 10px 10px 20px white; */
   }
 
-  div img {
+  section .imageSection {
     width: 100%;
-    height: 220px;
+    height: 155px;
+    background-repeat:no-repeat;
+    background-position:center;
+    animation: change 30s infinite ease-in-out;
+  }
+  @keyframes change{
+    0%{
+        background-image:url(../images/DAFCoverMobile.png);
+    }
+    
+    25%{
+      background-image:url(../images/DAFCoverMobile1.png);
+    }
+  
+    50%{
+      background-image:url(../images/DAFCoverMobile2.png);
+    }
+  
+    75%{
+      background-image:url(../images/DAFCoverMobile3.png);
+    }
+  
+    100%{
+      background-image:url(../images/DAFCoverMobile4.png);
+    }
   }
 
   main .docinfoparent {

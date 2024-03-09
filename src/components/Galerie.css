@@ -46,7 +46,10 @@ h2{
 }
 .galerieParent .photos img:hover{
   /* border: 4px solid orange; */
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
+  width: 30%;
+  height: 220px;
+  transition: width 1s, height 2s;
 }
 
 @media only screen and (max-width: 768px) {
@@ -79,4 +82,10 @@ h2{
     height: 90px;
     margin-left: 7%;
   } 
+
+  .galerieParent .photos img:hover{
+    width: 45%;
+    height: 100px;
+    transition: width 1s, height 2s;
+  }
 }

@@ -1,5 +1,7 @@
 import './Main.css'
-import DAFCover from '../images/DAFCover.png'
+// import DAFCover from '../images/DAFCover.png'
+// import DAFCover1 from '../images/DAFCover1.png'
+// import DAFCover2 from '../images/DAFCover2.png'
 import imgSection from '../images/imgSection.png'
 import Galerie from './Galerie'
 import ToTopButton from './ToTopButton'
@@ -11,9 +13,14 @@ const Main = () => {
       <main>
 
         <section className='docname'>
-          <img src={DAFCover} alt="" text='' />
+          <section className='imageSection'>
+            {/* <img src="" alt="" text='' /> */}
+            {/* <img src={DAFCover1} alt="" text='' />
+          <img src={DAFCover2} alt="" text='' /> */}
+          </section>
           <div>DARKAOUI ADVISORY FLOWESS
-            <p style={{ color: 'orange', fontFamily: 'arial' }}>Formation Professionnelle & Solutions de Gestion</p>
+            <p className='docnameSubTitle' style={{ color: 'orange' }}>
+              Formation Professionnelle & Solutions de Gestion</p>
           </div>
         </section>
 

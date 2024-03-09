@@ -6,7 +6,7 @@ import { FaFacebook, FaWhatsapp, FaEnvelope } from 'react-icons/fa'
 const header = () => {
   return (
     <>
-      <header className="hide-when-mobile mohammed">
+      <header className="hide-when-mobile">
         <h1>
           <Link to="/">DARKAOUI ADVISORY</Link>
         </h1>
@@ -78,7 +78,7 @@ const header = () => {
 
 
 
-      <header style={{ backgroundColor: "#383838", paddingLeft: '4%' }} className="show-when-mobile">
+      <header style={{backgroundColor: "#383838", paddingLeft: '4%' }} className="show-when-mobile">
         <h1 style={{width: '95%'}}>
           <Link to="/">DARKAOUI ADVISORY</Link>
         </h1>

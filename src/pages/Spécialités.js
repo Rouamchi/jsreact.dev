@@ -398,7 +398,7 @@ const Spécialités = () => {
         </section>
 
         <section>
-          <p className='titleDef'>Géronto-psychiatrie</p>
+          <p className='titleDef'>Formations</p>
           <p className='bodyDef'>
             La psychiatrie du sujet âgé permis de mieux appréhender des pathologies psychiatriques avec leurs spécificités sémiologiques, diagnostiques et thérapeutiques. Chez le sujet âgé, une maladie psychiatrique peut se manifester sous des formes atypiques et peut être difficile à différencier du vieillissement ou d’une maladie somatique. Les principales pathologies rencontrées sont :
 
@@ -661,7 +661,7 @@ const Spécialités = () => {
         </section>
 
         <section>
-          <p className='titleDef'>Géronto-psychiatrie</p>
+          <p className='titleDef'>Formations</p>
           <p className='bodyDef'>
             La psychiatrie du sujet âgé permis de mieux appréhender des pathologies psychiatriques avec leurs spécificités sémiologiques, diagnostiques et thérapeutiques. Chez le sujet âgé, une maladie psychiatrique peut se manifester sous des formes atypiques et peut être difficile à différencier du vieillissement ou d’une maladie somatique. Les principales pathologies rencontrées sont :
 

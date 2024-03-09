@@ -43,22 +43,22 @@ const Contact = () => {
         <div className='contactCard'>
           <PlaceIcon className='iconsContact' style={{ fontSize: 60 }} />
           <div>
-            <h3 style={{ marginTop: '10px' }}>ADRESSE</h3>
-            <p style={{ marginTop: '5px' }}>LOT ZAITOUNE N°38 JNANE ILLANE, SAFI, MAROC</p>
+            <h3 style={{ marginTop: '20px' }}>ADRESSE</h3>
+            <p style={{ marginTop: '8px' }}>Lot Zaitoune N°38 Jnane Illane, Safi, Maroc</p>
           </div>
         </div>
         <div className='contactCard'>
           <EmailIcon className='iconsContact' style={{ fontSize: 60 }} />
           <div>
-            <h3 style={{ marginTop: '26px' }}>EMAIL</h3>
-            <p style={{ marginTop: '5px' }}>Daflowess.group@gmail.com</p>
+            <h3 style={{ marginTop: '20px' }}>EMAIL</h3>
+            <p style={{ marginTop: '10px' }}>Daflowess.group@gmail.com</p>
           </div>
         </div>
         <div className='contactCard'>
           <LocalPhoneIcon className='iconsContact' style={{ fontSize: 60 }} />
           <div>
-            <h3 style={{ marginTop: '28px', marginLeft: '35px' }}>TELEPHONE</h3>
-            <p style={{ marginTop: '5px', marginLeft: '20px' }}> 0524464633 / 0602790203</p>
+            <h3 style={{ marginTop: '25px', marginLeft: '35px' }}>TELEPHONE</h3>
+            <p style={{ marginTop: '10px', marginLeft: '20px' }}> 0524464633 / 0602790203</p>
           </div>
         </div>
       </section>
@@ -68,7 +68,7 @@ const Contact = () => {
           <div style={{
             color: 'black', fontSize: '25px',
             fontWeight: 'bold', marginTop: '20px',
-            marginLeft: '30px'
+            marginLeft: '30px', fontFamily: 'Lucida Sans Lucida Sans Regular Lucida Grande Lucida Sans Unicode Geneva Verdana sans-serif'
           }}>
             Contactez-Nous
             <p style={{ border: '2px solid orange', marginTop: '10px', width: '230px' }}></p>
@@ -87,7 +87,7 @@ const Contact = () => {
             <div className="textfield"><TextField style={{ width: '98%' }} id="message" label="Message" /></div>
           </div>
           <Stack direction="row" spacing={2}>
-            <Button style={{ marginTop: '20px', marginLeft: '30px', backgroundColor: '#343434' }}
+            <Button style={{ marginTop: '20px', marginLeft: '30px', backgroundColor: '#343434'}}
               onClick={(e) => click(e)}
               variant="contained" endIcon={<SendIcon />}>
               Envoyer

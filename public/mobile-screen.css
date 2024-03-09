@@ -33,6 +33,7 @@ input {
 .fas{
   position: absolute;
   right: 5vw;
+
 }
 
 /* ====================================
@@ -73,7 +74,9 @@ input {
 } */
 
 .main-div label .fas{
+  font-size:15px;
   margin-right: 11%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #burger:checked + .show-on-click{
