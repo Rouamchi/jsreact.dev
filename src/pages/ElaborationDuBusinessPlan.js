@@ -39,7 +39,7 @@ const ElaborationDuBusinessPlan = () => {
       <p className='underTitle'></p> */}
       <section className='sectionImgService'>
         <div className='sectionImg'>
-          <img src={elaborationDuBusinessPlan} alt="" text='' />
+          <img style={{width:'100%', height:'100%'}} src={elaborationDuBusinessPlan} alt="" text='' />
         </div>
         <div className='sectionService'>
           <h5 className='nosServices'>Nos Services</h5>

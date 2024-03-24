@@ -36,7 +36,7 @@ const ConseilDeGestion = () => {
       </div>
       <section className='sectionImgService'>
         <div className='sectionImg'>
-          <img src={conseil} alt="" text='' />
+          <img style={{width:'100%', height:'100%'}} src={conseil} alt="" text='' />
         </div>
         <div className='sectionService'>
           <h5 className='nosServices'>Nos Services</h5>
